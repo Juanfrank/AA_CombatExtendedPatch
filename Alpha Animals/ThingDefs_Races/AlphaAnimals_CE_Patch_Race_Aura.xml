@@ -23,11 +23,13 @@
 				<xpath>/Defs/ThingDef[defName="AA_Aura"]</xpath>
 				<value>
 					<statBases> <!-- Ok this is pissing me off -->
-						<ArmorRating_Blunt>8</ArmorRating_Blunt>
-						<ArmorRating_Sharp>12</ArmorRating_Sharp>
-						<MeleeDodgeChance>0.02</MeleeDodgeChance>
-						<MeleeCritChance>0.16</MeleeCritChance>
-						<MeleeParryChance>0.17</MeleeParryChance>
+					        <MoveSpeed>6</MoveSpeed>
+						<ArmorRating_Blunt>2</ArmorRating_Blunt>
+						<ArmorRating_Sharp>3</ArmorRating_Sharp>
+						<MeleeDodgeChance>0.33</MeleeDodgeChance>
+						<MeleeCritChance>0.24</MeleeCritChance>
+						<MeleeParryChance>0.33</MeleeParryChance>
+						<MaxHitPoints>200</MaxHitPoints>
 					</statBases>
 				</value>
 			</li>
@@ -42,11 +44,11 @@
 							  <li>Cut</li>
 							  <li>Stab</li>
 							</capacities>
-							<power>23</power>
-							<cooldownTime>2</cooldownTime>
+							<power>22</power>
+							<cooldownTime>0.7</cooldownTime>
 							<linkedBodyPartsGroup>AA_WingBlades</linkedBodyPartsGroup>
 							<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-							<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationBlunt>2</armorPenetrationBlunt>
 							<armorPenetrationSharp>18</armorPenetrationSharp>
 						</li>
       
