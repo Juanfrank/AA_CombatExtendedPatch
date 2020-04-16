@@ -62,7 +62,7 @@
 							<cooldownTime>2.6</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-							<armorPenetrationBlunt>4</armorPenetrationBlunt>
+							<armorPenetrationBlunt>10</armorPenetrationBlunt>
 					  </li>
 					</tools>
 				</value>
