@@ -12,4 +12,10 @@ I'm also unfamiliar with the github environment, so please bear with me.
 
 I'm also NOT planning to post this in Steam, since I want this to be my humble contribution to the CE-included patches, with no self-interest involved. Also, if Alpha Animals or CE make complicated changes to their XML structure, I do not compromise myself with making updates.
 
-Feel free to do some spreadsheeting in CE's standards and send them to me. I swear I'll give due credit to anyone that contributes to this.
+Feel free, in case you feel like proposing a change to any value, to make your proposed change in CE's spreadsheet standards and send them to me. 
+
+The same goes if you want to do a whole rebalance of the patch. I swear I'll give due credit to anyone that contributes to this.
+
+## Installation ##
+
+Place the folder inside your "SteamLibrary\steamapps\workshop\content\294100\1631756268\Patches\" folder. Yes, that's the path.
