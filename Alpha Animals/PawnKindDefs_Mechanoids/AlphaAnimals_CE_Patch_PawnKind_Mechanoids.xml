@@ -22,7 +22,7 @@
         </value>
       </li>
 	  
-	  <!-- Fireworm and Siegebreaker -->
+	  <!-- Goliath -->
 	  
 	   <li Class="PatchOperationAddModExtension">
         <xpath>Defs/PawnKindDef[defName="AA_Goliath"]</xpath>
