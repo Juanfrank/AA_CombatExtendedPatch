@@ -23,10 +23,10 @@
 				<xpath>/Defs/ThingDef[defName="AA_Daggersnout"]</xpath>
 				<value>
 					<statBases> <!-- Actually having to add statBases.... -->
-						<ArmorRating_Blunt>13</ArmorRating_Blunt>
-						<ArmorRating_Sharp>21</ArmorRating_Sharp>
-						<MeleeDodgeChance>0.02</MeleeDodgeChance>
-						<MeleeCritChance>0.33</MeleeCritChance>
+						<ArmorRating_Blunt>4</ArmorRating_Blunt>
+						<ArmorRating_Sharp>3</ArmorRating_Sharp>
+						<MeleeDodgeChance>0.1</MeleeDodgeChance>
+						<MeleeCritChance>0.3</MeleeCritChance>
 						<MeleeParryChance>0.17</MeleeParryChance>
 					</statBases>
 				</value>
@@ -42,12 +42,12 @@
 								  <li>Cut</li>
 								  <li>Stab</li>
 								</capacities>
-								<power>6</power>
-								<cooldownTime>1</cooldownTime>
+								<power>20</power>
+								<cooldownTime>1.7</cooldownTime>
 								<linkedBodyPartsGroup>AA_NoseBlade</linkedBodyPartsGroup>
 								<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
-							<armorPenetrationBlunt>2</armorPenetrationBlunt>
-							<armorPenetrationSharp>15</armorPenetrationSharp>
+							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+							<armorPenetrationSharp>4</armorPenetrationSharp>
 						</li>
       
 						<li Class="CombatExtended.ToolCE">
