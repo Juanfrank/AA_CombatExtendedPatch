@@ -13,11 +13,11 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>5</damageAmountBase>
+						<damageDef>ScratchToxic</damageDef>
+						<damageAmountBase>9</damageAmountBase>
 						<speed>64</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
+						<armorPenetrationSharp>3</armorPenetrationSharp>
+						<armorPenetrationBlunt>1.640</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -27,11 +27,11 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>8</damageAmountBase>
+						<damageDef>ScratchToxic</damageDef>
+						<damageAmountBase>15</damageAmountBase>
 						<speed>40</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
+						<armorPenetrationBlunt>1.860</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -41,11 +41,11 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>8</damageAmountBase>
+						<damageDef>ScratchToxic</damageDef>
+						<damageAmountBase>15</damageAmountBase>
 						<speed>40</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
+						<armorPenetrationBlunt>1.860</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -56,10 +56,10 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
-						<damageAmountBase>20</damageAmountBase>
+						<damageAmountBase>36</damageAmountBase>
 						<speed>25</speed>
-						<armorPenetrationSharp>16</armorPenetrationSharp>
-						<armorPenetrationBlunt>14.4</armorPenetrationBlunt>
+						<armorPenetrationSharp>20</armorPenetrationSharp>
+						<armorPenetrationBlunt>10.4</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -69,11 +69,11 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>20</damageAmountBase>
+						<damageDef>ScratchToxic</damageDef>
+						<damageAmountBase>21</damageAmountBase>
 						<speed>20</speed>
-						<armorPenetrationSharp>8</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.750</armorPenetrationBlunt>
+						<armorPenetrationSharp>2</armorPenetrationSharp>
+						<armorPenetrationBlunt>3</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -83,10 +83,10 @@
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
-						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>3</damageAmountBase>
+						<damageDef>ScratchToxic</damageDef>
+						<damageAmountBase>10</damageAmountBase>
 						<speed>35</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
+						<armorPenetrationSharp>2</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
 				</value>
@@ -101,8 +101,8 @@
 						<damageDef>Bomb</damageDef>
 						<damageAmountBase>40</damageAmountBase>
 						<speed>20</speed>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
-						<armorPenetrationBlunt>0.760</armorPenetrationBlunt>
+						<armorPenetrationSharp>2</armorPenetrationSharp>
+						<armorPenetrationBlunt>8.760</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
