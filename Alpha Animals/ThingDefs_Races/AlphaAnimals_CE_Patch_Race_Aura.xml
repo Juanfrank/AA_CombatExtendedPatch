@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Alpha Animals</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName="AA_Aura"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Humanoid</bodyShape>
+					</li>
+				</value>
+			</li>
+
+		<!-- Assign armor values, change replace and add depending on what exists or not -->
+					
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AA_Aura"]</xpath>
+				<value>
+					<statBases> <!-- Ok this is pissing me off -->
+						<ArmorRating_Blunt>8</ArmorRating_Blunt>
+						<ArmorRating_Sharp>12</ArmorRating_Sharp>
+						<MeleeDodgeChance>0.02</MeleeDodgeChance>
+						<MeleeCritChance>0.16</MeleeCritChance>
+						<MeleeParryChance>0.17</MeleeParryChance>
+					</statBases>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_Aura"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>wing blade</label>
+							<capacities>
+							  <li>Cut</li>
+							  <li>Stab</li>
+							</capacities>
+							<power>23</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>AA_WingBlades</linkedBodyPartsGroup>
+							<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+							<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationSharp>18</armorPenetrationSharp>
+						</li>
+      
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+							  <li>Blunt</li>
+							</capacities>
+							<power>9</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+							<chanceFactor>0.2</chanceFactor>
+							<armorPenetrationBlunt>3</armorPenetrationBlunt>
+						  </li>
+					</tools>
+				</value>
+			</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
