@@ -2,7 +2,7 @@
 Alpha Animals Combat Extended Patch for CE/RimWorld 1.1
 
 ## Disclaimer ##
-I do not own nor have any intellectual property rights over Alpha Animals nor Combat Extended. This is a voluntary project made for the purpose of making these both mods be compatible with each other.
+I do not own nor have any intellectual property rights over Alpha Animals, RimWorld nor Combat Extended. This is a voluntary project made for the purpose of making both these mods be compatible with each other.
 
 The Patch might have some balance issues, in which case I **kindly** beg of you to do the adequate PR request or just send me a message with the proposed changes.
 
