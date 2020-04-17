@@ -14,8 +14,8 @@
         <value>
           <li Class="CombatExtended.LoadoutPropertiesExtension">
             <primaryMagazineCount>
-              <min>7</min>
-              <max>9</max>
+              <min>20</min>
+              <max>20</max>
           </primaryMagazineCount>
           </li>
         </value>
@@ -27,8 +27,8 @@
         <value>
           <li Class="CombatExtended.LoadoutPropertiesExtension">
             <primaryMagazineCount>
-              <min>2</min>
-              <max>2</max>
+              <min>100</min>
+              <max>100</max>
           </primaryMagazineCount>
           </li>
         </value>
@@ -41,8 +41,8 @@
         <value>
           <li Class="CombatExtended.LoadoutPropertiesExtension">
             <primaryMagazineCount>
-              <min>10</min>
-              <max>15</max>
+              <min>50</min>
+              <max>50</max>
           </primaryMagazineCount>
           </li>
         </value>
