@@ -7,11 +7,23 @@
       <li Class="CombatExtended.PatchOperationFindMod">
         <modName>Alpha Animals</modName>
       </li>
-	  
-	  <!-- Fireworm and Siegebreaker -->
+	  	 	  <!-- Siegebreaker -->
 	  
       <li Class="PatchOperationAddModExtension">
-        <xpath>Defs/PawnKindDef[defName="AA_Fireworm" or defName="AA_Siegebreaker"]</xpath>
+        <xpath>Defs/PawnKindDef[defName="AA_Siegebreaker"]</xpath>
+        <value>
+          <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+              <min>20</min>
+              <max>20</max>
+          </primaryMagazineCount>
+          </li>
+        </value>
+      </li>
+	    <!-- Fireworm-->
+
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/PawnKindDef[defName="AA_Fireworm"]</xpath>
         <value>
           <li Class="CombatExtended.LoadoutPropertiesExtension">
             <primaryMagazineCount>
@@ -29,8 +41,8 @@
         <value>
           <li Class="CombatExtended.LoadoutPropertiesExtension">
             <primaryMagazineCount>
-              <min>100</min>
-              <max>200</max>
+              <min>50</min>
+              <max>50</max>
           </primaryMagazineCount>
           </li>
         </value>
