@@ -42,12 +42,12 @@
 					<MaxHitPoints>500</MaxHitPoints>
 				</value>
 			</li>
-					<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AA_Goliath"]/race/baseHealthScale</xpath>
-		<value>
-			<baseHealthScale>2.5</baseHealthScale>
-		</value>
-	</Operation>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Goliath"]/race/baseHealthScale</xpath>
+				<value>
+					<baseHealthScale>2.5</baseHealthScale>
+				</value>
+			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Goliath"]/tools</xpath>
