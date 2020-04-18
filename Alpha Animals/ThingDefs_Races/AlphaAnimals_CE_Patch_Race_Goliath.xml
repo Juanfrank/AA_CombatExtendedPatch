@@ -36,6 +36,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Goliath"]/statBases</xpath>
 				<value>
+					<AimingAccuracy>1.0</AimingAccuracy>
+			                <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 					<MeleeDodgeChance>0.01</MeleeDodgeChance>
 					<MeleeCritChance>0.75</MeleeCritChance>
 					<MeleeParryChance>0.17</MeleeParryChance>
