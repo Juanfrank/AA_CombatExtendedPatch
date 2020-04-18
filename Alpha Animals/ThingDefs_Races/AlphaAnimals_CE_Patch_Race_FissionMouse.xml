@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_FissionMouse"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>QuadrupedLow</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -82,7 +82,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_FissionMouseSecond"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>QuadrupedLow</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -152,7 +152,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_FissionMouseThird"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>QuadrupedLow</bodyShape>
 					</li>
 				</value>
 			</li>
