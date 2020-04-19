@@ -6,14 +6,42 @@
 				<modName>Alpha Animals</modName>
 			</li>
 
-			<!-- Remove Siege Turret, unused -->
-			
-			<li Class="PatchOperationRemove">
-			<xpath>Defs/ThingDef[@Name="AA_SiegeTurretBase"]</xpath>
-			</li>
-			
-			<li Class="PatchOperationRemove">
-			<xpath>Defs/ThingDef[defName="AA_SiegeTurret"]</xpath>
+
+			<!-- Make the Siege Turret usable -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<defName>AA_SiegeTurret</defName>
+			  <statBases>
+			  <Mass>2.00</Mass>
+			  <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+			  <SightsEfficiency>2.5</SightsEfficiency>
+			  <ShotSpread>0.01</ShotSpread>
+			  <SwayFactor>1.33</SwayFactor>
+			  <Bulk>1.00</Bulk>
+			</statBases>
+			<Properties>
+			  <recoilAmount>1</recoilAmount>
+			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			  <hasStandardCommand>true</hasStandardCommand>
+			  <defaultProjectile>Bullet_120mmCannonShell_HE</defaultProjectile>
+			  <warmupTime>5</warmupTime>
+			  <range>88</range>
+			  <minRange>6</minRange>
+			  <soundCast>InfernoCannon_Fire</soundCast>
+			  <muzzleFlashScale>2</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			</Properties>
+			<AmmoUser>
+			  <magazineSize>1</magazineSize>
+			  <reloadTime>8</reloadTime>
+			  <ammoSet>AmmoSet_120mmCannonShell</ammoSet>
+			</AmmoUser>
+			<FireModes>
+			  <aiAimMode>AimedShot</aiAimMode>
+			</FireModes>
+			<weaponTags>
+				<li>AA_MechanoidGun</li>
+			</weaponTags>
 			</li>
 
 			<!-- Change the Flamethrower -->
@@ -22,13 +50,6 @@
 				<xpath>/Defs/ThingDef[@Name="AA_FlamethrowerBase"]/description</xpath>
 				<value>
 					<description>A prometheum jelly flamethrower. Short range, but it will cause uncontrollable fires if you let the fireworms come near.</description>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[@Name="AA_FlamethrowerBase"]/graphicData/texPath</xpath>
-				<value>
-					<texPath>Things/Item/Equipment/WeaponRanged/InfernoCannon</texPath>
 				</value>
 			</li>
 			
@@ -54,8 +75,8 @@
 			  <statBases>
 			  <Mass>2.00</Mass>
 			  <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-			  <SightsEfficiency>0.4</SightsEfficiency>
-			  <ShotSpread>0.2</ShotSpread>
+			  <SightsEfficiency>0.8</SightsEfficiency>
+			  <ShotSpread>0.3</ShotSpread>
 			  <SwayFactor>1.33</SwayFactor>
 			  <Bulk>1.00</Bulk>
 			</statBases>
@@ -64,8 +85,8 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
-			  <warmupTime>0.3</warmupTime>
-			  <range>8</range>
+			  <warmupTime>0.15</warmupTime>
+			  <range>16</range>
 			  <ticksBetweenBurstShots>0.5</ticksBetweenBurstShots>
 			  <burstShotCount>5</burstShotCount>
 			  <soundCast>FlameThrower</soundCast>
