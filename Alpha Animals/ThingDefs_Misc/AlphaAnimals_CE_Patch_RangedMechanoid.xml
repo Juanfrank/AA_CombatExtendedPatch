@@ -76,7 +76,7 @@
 			  <Mass>2.00</Mass>
 			  <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
 			  <SightsEfficiency>0.8</SightsEfficiency>
-			  <ShotSpread>0.5</ShotSpread>
+			  <ShotSpread>0.3</ShotSpread>
 			  <SwayFactor>1.33</SwayFactor>
 			  <Bulk>1.00</Bulk>
 			</statBases>
@@ -85,7 +85,7 @@
 			  <verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			  <hasStandardCommand>true</hasStandardCommand>
 			  <defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
-			  <warmupTime>0.3</warmupTime>
+			  <warmupTime>0.15</warmupTime>
 			  <range>16</range>
 			  <ticksBetweenBurstShots>0.5</ticksBetweenBurstShots>
 			  <burstShotCount>5</burstShotCount>
