@@ -569,6 +569,24 @@
 					</li>
 
 					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_DaggerSnoutBody"]/corePart/parts/li[def="AA_TankPlateThird"]/parts/li[def="AA_TankPlateFifth"]/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_DaggerSnoutBody"]/corePart/parts/li[def="AA_TankPlateThird"]/parts/li[def="AA_TankPlateFifth"]</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_DaggerSnoutBody"]/corePart/parts/li[def="AA_TankPlateThird"]/parts/li[def="AA_TankPlateFifth"]/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					</li>					
+					
+					<li Class="PatchOperationConditional">
 					<xpath>/Defs/BodyDef[defName="AA_DaggerSnoutBody"]/corePart/parts/li[def="MechanicalLeg"]/groups</xpath>
 					<nomatch Class="PatchOperationAdd">
 							<xpath>/Defs/BodyDef[defName="AA_DaggerSnoutBody"]/corePart/parts/li[def="MechanicalLeg"]</xpath>
