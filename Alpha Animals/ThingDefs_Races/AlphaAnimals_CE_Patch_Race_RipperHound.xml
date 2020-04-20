@@ -20,11 +20,25 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_RipperHound"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.06</MeleeDodgeChance>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
 					<MeleeCritChance>0.06</MeleeCritChance>
 					<MeleeParryChance>0.11</MeleeParryChance>
 				</value>
 			</li>
+				
+					<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_RipperHound"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		</value>
+	</li>
+
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_RipperHound"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+		</value>
+	</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_RipperHound"]/tools</xpath>
@@ -35,8 +49,8 @@
 						<capacities>
 						  <li>AA_ExtraDamageInsectoidsClaws</li>
 						</capacities>
-						<power>16</power>
-						<cooldownTime>1.5</cooldownTime>
+						<power>18</power>
+						<cooldownTime>1.2</cooldownTime>
 						<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>1</armorPenetrationBlunt>
 						<armorPenetrationSharp>10</armorPenetrationSharp>					   
@@ -46,8 +60,8 @@
 						<capacities>
 						  <li>AA_ExtraDamageInsectoidsClaws</li>
 						</capacities>
-						<power>16</power>
-						<cooldownTime>1.5</cooldownTime>
+						<power>18</power>
+						<cooldownTime>1.2</cooldownTime>
 						<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 					   	<armorPenetrationBlunt>1</armorPenetrationBlunt>
 						<armorPenetrationSharp>10</armorPenetrationSharp>		
@@ -56,8 +70,8 @@
 						<capacities>
 						  <li>Bite</li>
 						</capacities>
-						<power>18</power>
-						<cooldownTime>2.0</cooldownTime>
+						<power>20</power>
+						<cooldownTime>1.8</cooldownTime>
 						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 						<chanceFactor>0.4</chanceFactor>
 						<armorPenetrationBlunt>2</armorPenetrationBlunt>
