@@ -121,12 +121,19 @@
 			<!-- Chitin stuff-->	
 
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Leather_Chitin" or defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<xpath>/Defs/ThingDef[defName="Leather_Chitin"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
 					<StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
 				</value>
 			</li>	
 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.23</StuffPower_Armor_Sharp>
+				</value>
+			</li>	
+			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Blunt</xpath>
 				<value>
