@@ -27,10 +27,10 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_RaptorShrimp"]/statBases</xpath>
 				<value>
-					<ArmorRating_Blunt>2</ArmorRating_Blunt>
-					<MeleeDodgeChance>0.02</MeleeDodgeChance>
-					<MeleeCritChance>0.4</MeleeCritChance>
-					<MeleeParryChance>0.45</MeleeParryChance>
+					<ArmorRating_Blunt>3</ArmorRating_Blunt>
+					<MeleeDodgeChance>0.07</MeleeDodgeChance>
+					<MeleeCritChance>0.3</MeleeCritChance>
+					<MeleeParryChance>0.3</MeleeParryChance>
 				</value>
 			</li>
 
@@ -43,8 +43,8 @@
 							<capacities>
 								<li>AA_Pierce</li>
 							</capacities>
-							<power>40</power>
-							<cooldownTime>1.9</cooldownTime>
+							<power>30</power>
+							<cooldownTime>1.8</cooldownTime>
 							<linkedBodyPartsGroup>AA_BladeAttackTool</linkedBodyPartsGroup>
 							<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 							<surpriseAttack>
@@ -63,8 +63,8 @@
 							<capacities>
 								<li>AA_Pierce</li>
 							</capacities>
-							<power>40</power>
-							<cooldownTime>1.9</cooldownTime>
+							<power>30</power>
+							<cooldownTime>1.8</cooldownTime>
 							<linkedBodyPartsGroup>AA_BladeAttackTool</linkedBodyPartsGroup>
 							<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 							<surpriseAttack>
