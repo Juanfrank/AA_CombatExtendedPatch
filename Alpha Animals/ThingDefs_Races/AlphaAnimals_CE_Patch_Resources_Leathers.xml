@@ -128,7 +128,7 @@
 			</li>	
 
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="Leather_Chitin" or defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<xpath>/Defs/ThingDef[defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Blunt</xpath>
 				<value>
 					<StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
 				</value>
