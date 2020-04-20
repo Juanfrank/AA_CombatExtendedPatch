@@ -43,7 +43,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>21</power>
-							<cooldownTime>2.3</cooldownTime>
+							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -62,7 +62,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>21</power>
-							<cooldownTime>2.3</cooldownTime>
+							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
