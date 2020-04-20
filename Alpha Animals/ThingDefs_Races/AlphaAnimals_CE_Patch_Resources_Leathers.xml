@@ -123,35 +123,35 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Leather_Chitin" or defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
-					<StuffPower_Armor_Sharp>0.30</StuffPower_Armor_Sharp>
+					<StuffPower_Armor_Sharp>0.18</StuffPower_Armor_Sharp>
 				</value>
 			</li>	
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Leather_Chitin" or defName="Leather_BlackChitin"]/statBases/StuffPower_Armor_Blunt</xpath>
 				<value>
-					<StuffPower_Armor_Blunt>0.024</StuffPower_Armor_Blunt>
+					<StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="Leather_Chitin"]/statBases</xpath>
 				<value>
-					<StuffPower_Armor_Blunt>0.024</StuffPower_Armor_Blunt>
+					<StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="Leather_RaptorPlates" or defName="Leather_IronChitin"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
-					<StuffPower_Armor_Sharp>0.23</StuffPower_Armor_Sharp>
+					<StuffPower_Armor_Sharp>0.25</StuffPower_Armor_Sharp>
 				</value>
 			</li>	
 
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="Leather_RaptorPlates" or defName="Leather_IronChitin"]/statBases</xpath>
 				<value>
-					<StuffPower_Armor_Blunt>0.020</StuffPower_Armor_Blunt>
+					<StuffPower_Armor_Blunt>0.060</StuffPower_Armor_Blunt>
 				</value>
 			</li>
 
@@ -174,16 +174,30 @@
 			<!--Chameleon Yak -->
 
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolDesert" or defName="AA_ChameleonYakWoolTemperate" or defName="AA_ChameleonYakWoolJungle"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolDesert" or defName="AA_ChameleonYakWoolTemperate"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
-					<StuffPower_Armor_Sharp>0.08</StuffPower_Armor_Sharp>
+					<StuffPower_Armor_Sharp>0.07</StuffPower_Armor_Sharp>
 				</value>
 			</li>	
 
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolDesert" or defName="AA_ChameleonYakWoolTemperate" or defName="AA_ChameleonYakWoolJungle"]/statBases</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolDesert" or defName="AA_ChameleonYakWoolTemperate"]/statBases</xpath>
 				<value>
 					<StuffPower_Armor_Blunt>0.055</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolJungle"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.12</StuffPower_Armor_Sharp>
+				</value>
+			</li>	
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="AA_ChameleonYakWoolJungle"]/statBases</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.09</StuffPower_Armor_Blunt>
 				</value>
 			</li>
 
