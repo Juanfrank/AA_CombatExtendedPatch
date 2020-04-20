@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Swarmling"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.32</MeleeDodgeChance>
+					<MeleeDodgeChance>0.33</MeleeDodgeChance>
 					<MeleeCritChance>0</MeleeCritChance>
 					<MeleeParryChance>0</MeleeParryChance>
 				</value>
@@ -35,10 +35,10 @@
 							<capacities>
 								<li>AA_SwarmlingClaws</li>
 							</capacities>
-							<power>4</power>
-							<cooldownTime>2</cooldownTime>
+							<power>3</power>
+							<cooldownTime>0.75</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.08</armorPenetrationSharp>
+							<armorPenetrationSharp>0.12</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.316</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -46,10 +46,10 @@
 							<capacities>
 								<li>AA_SwarmlingClaws</li>
 							</capacities>
-							<power>4</power>
-							<cooldownTime>2</cooldownTime>
+							<power>3</power>
+							<cooldownTime>0.75</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.08</armorPenetrationSharp>
+							<armorPenetrationSharp>0.12</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.316</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -57,7 +57,7 @@
 								<li>Bite</li>
 							</capacities>
 							<power>5</power>
-							<cooldownTime>2</cooldownTime>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.63</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.844</armorPenetrationBlunt>
