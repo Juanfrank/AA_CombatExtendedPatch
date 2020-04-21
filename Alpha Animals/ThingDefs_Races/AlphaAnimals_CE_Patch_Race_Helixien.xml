@@ -22,7 +22,7 @@
 				<value>
 					<MeleeDodgeChance>0.00</MeleeDodgeChance>
 					<MeleeCritChance>0.47</MeleeCritChance>
-					<MeleeParryChance>0.27</MeleeParryChance>
+					<MeleeParryChance>0.16</MeleeParryChance>
 				</value>
 			</li>
 
@@ -36,7 +36,7 @@
 								<li>Blunt</li>
 							</capacities>
 							<power>24</power>
-							<cooldownTime>3.4</cooldownTime>
+							<cooldownTime>3.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
