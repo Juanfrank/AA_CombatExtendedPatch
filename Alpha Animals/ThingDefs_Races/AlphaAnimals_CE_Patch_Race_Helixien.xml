@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Helixien"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.00</MeleeDodgeChance>
-					<MeleeCritChance>0.10</MeleeCritChance>
+					<MeleeCritChance>0.47</MeleeCritChance>
 					<MeleeParryChance>0.27</MeleeParryChance>
 				</value>
 			</li>
@@ -31,12 +31,12 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
-							<label>body</label>
+							<label>bodyslam</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>18</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>24</power>
+							<cooldownTime>3.4</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -46,7 +46,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>4</armorPenetrationBlunt>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
