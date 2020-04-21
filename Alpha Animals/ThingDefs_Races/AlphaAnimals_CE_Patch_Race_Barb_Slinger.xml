@@ -22,7 +22,7 @@
 				<value>
 					<MeleeDodgeChance>0.1</MeleeDodgeChance>
 					<MeleeCritChance>0.48</MeleeCritChance>
-			<MeleeParryChance>0.36</MeleeParryChance>
+					<MeleeParryChance>0.36</MeleeParryChance>
 				</value>
 			</li>
 				
