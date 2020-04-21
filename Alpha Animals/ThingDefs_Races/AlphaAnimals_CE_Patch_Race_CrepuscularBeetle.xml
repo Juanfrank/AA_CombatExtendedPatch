@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_CrepuscularBeetle"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>QuadrupedLow</bodyShape>
+						<bodyShape>Quadruped</bodyShape>
 					</li>
 				</value>
 			</li>
