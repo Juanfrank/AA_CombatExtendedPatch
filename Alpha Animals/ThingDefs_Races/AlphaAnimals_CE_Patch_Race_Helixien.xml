@@ -21,8 +21,9 @@
 				<xpath>/Defs/ThingDef[defName="AA_Helixien"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.00</MeleeDodgeChance>
-					<MeleeCritChance>0.47</MeleeCritChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 					<MeleeParryChance>0.16</MeleeParryChance>
+					<ArmorRating_Blunt>4</ArmorRating_Blunt>
 				</value>
 			</li>
 
