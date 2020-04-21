@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Aerofleet"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.36</MeleeDodgeChance>
-					<MeleeCritChance>0.01</MeleeCritChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 					<MeleeParryChance>0</MeleeParryChance>
 				</value>
 			</li>
@@ -68,7 +68,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_ColossalAerofleet"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.16</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeCritChance>0.05</MeleeCritChance>
 					<MeleeParryChance>0.11</MeleeParryChance>
 				</value>
 			</li>
