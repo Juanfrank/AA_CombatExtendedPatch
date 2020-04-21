@@ -20,27 +20,25 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/statBases</xpath>
 				<value>
-			                <AimingAccuracy>1.0</AimingAccuracy>
-			                <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
 					<MeleeDodgeChance>0.1</MeleeDodgeChance>
 					<MeleeCritChance>0.48</MeleeCritChance>
 			<MeleeParryChance>0.36</MeleeParryChance>
 				</value>
 			</li>
 				
-					<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AA_Barbslinger"]/statBases/ArmorRating_Blunt</xpath>
-		<value>
-			<ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-		</value>
-	</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Barbslinger"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>2.5</ArmorRating_Blunt>
+				</value>
+			</li>
 
-	<li Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AA_Barbslinger"]/statBases/ArmorRating_Sharp</xpath>
-		<value>
-			<ArmorRating_Sharp>1.75</ArmorRating_Sharp>
-		</value>
-	</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Barbslinger"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>1.75</ArmorRating_Sharp>
+				</value>
+			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/tools</xpath>
@@ -72,8 +70,8 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>37</power>
-							<cooldownTime>2.2</cooldownTime>
+							<power>15</power>
+							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
 							<armorPenetrationSharp>10</armorPenetrationSharp>
 							<armorPenetrationBlunt>3</armorPenetrationBlunt>
