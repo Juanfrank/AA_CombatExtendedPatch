@@ -51,10 +51,10 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>24</power>
+							<power>25</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationSharp>2.5</armorPenetrationSharp>
+							<armorPenetrationSharp>3</armorPenetrationSharp>
 							<armorPenetrationBlunt>8</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -62,17 +62,17 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>24</power>
+							<power>25</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationSharp>2.5</armorPenetrationSharp>
+							<armorPenetrationSharp>3</armorPenetrationSharp>
 							<armorPenetrationBlunt>8</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>36</power>
+							<power>37</power>
 							<cooldownTime>2.2</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
 							<armorPenetrationSharp>10</armorPenetrationSharp>
