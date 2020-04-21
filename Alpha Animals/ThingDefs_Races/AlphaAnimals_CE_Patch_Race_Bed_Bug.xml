@@ -25,7 +25,7 @@
 					<MeleeParryChance>0.02</MeleeParryChance>
 				</value>
 			</li>
-
+								
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_BedBug"]/tools</xpath>
 				<value>
@@ -36,7 +36,7 @@
 								<li>AA_ParalysingBite</li>
 							</capacities>
 							<power>7</power>
-							<cooldownTime>2</cooldownTime>
+							<cooldownTime>1.6</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
@@ -46,11 +46,11 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>6</power>
-							<cooldownTime>2</cooldownTime>
+							<power>2</power>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-							<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 							<chanceFactor>0.1</chanceFactor>
 						</li>
 					</tools>
