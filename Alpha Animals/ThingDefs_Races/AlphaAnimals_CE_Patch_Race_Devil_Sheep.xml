@@ -36,10 +36,10 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>4</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right hoof</label>
@@ -47,26 +47,26 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>4</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>5</power>
+							<power>4</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>0.80</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.60</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>3</power>
+							<power>4</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1.25</armorPenetrationBlunt>
