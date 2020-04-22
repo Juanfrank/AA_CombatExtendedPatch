@@ -47,10 +47,10 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>20</power>
+							<power>25</power>
 							<cooldownTime>2.6</cooldownTime>
-							<armorPenetrationSharp>1.14</armorPenetrationSharp>
-							<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationSharp>3</armorPenetrationSharp>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
@@ -58,7 +58,7 @@
 								<li>Blunt</li>
 							</capacities>
 							<power>12</power>
-							<cooldownTime>1.65</cooldownTime>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -68,7 +68,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>1</armorPenetrationBlunt>
+							<armorPenetrationBlunt>5</armorPenetrationBlunt>
 							<chanceFactor>0.3</chanceFactor>
 						</li>
 					</tools>
