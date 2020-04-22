@@ -22,7 +22,7 @@
 				<value>
 					<MeleeDodgeChance>0.03</MeleeDodgeChance>
 					<MeleeCritChance>0.15</MeleeCritChance>
-					<MeleeParryChance>0.05</MeleeParryChance>
+					<MeleeParryChance>0.13</MeleeParryChance>
 				</value>
 			</li>
 
@@ -36,7 +36,7 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>12</power>
+							<power>10</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>2.250</armorPenetrationBlunt>
@@ -47,14 +47,14 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>12</power>
+							<power>10</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>2.250</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>BiteBlunt</li>
+								<li>Bite</li>
 							</capacities>
 							<power>10</power>
 							<cooldownTime>2</cooldownTime>
@@ -66,7 +66,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>16</power>
+							<power>15</power>
 							<cooldownTime>2.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1.750</armorPenetrationBlunt>
