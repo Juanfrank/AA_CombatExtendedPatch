@@ -21,8 +21,8 @@
 				<xpath>/Defs/ThingDef[defName="AA_DevilSheep"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.11</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
-					<MeleeParryChance>0.03</MeleeParryChance>
+					<MeleeCritChance>0.01</MeleeCritChance>
+					<MeleeParryChance>0.01</MeleeParryChance>
 				</value>
 			</li>
 
@@ -36,8 +36,8 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>4</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
 						</li>
@@ -47,16 +47,16 @@
 								<li>Blunt</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>4</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>5</power>
+							<power>4</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.80</armorPenetrationBlunt>
