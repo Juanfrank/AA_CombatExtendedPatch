@@ -34,7 +34,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_FrostboundBehemoth"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.02</MeleeDodgeChance>
-					<MeleeCritChance>0.6</MeleeCritChance>
+					<MeleeCritChance>0.22</MeleeCritChance>
 					<MeleeParryChance>0.20</MeleeParryChance>
 				</value>
 			</li>
@@ -44,7 +44,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
-							<label>Enormous body</label>
+							<label>body</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
