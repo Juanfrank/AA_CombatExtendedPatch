@@ -28,7 +28,6 @@
 						<value>
 							<accuracyPenalty>1</accuracyPenalty>
 						</value>
-					</xpath>
 				</li>
 			</operations>
 		</match>
