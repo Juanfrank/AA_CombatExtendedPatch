@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_DuskRat"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.52</MeleeDodgeChance>
-					<MeleeCritChance>0</MeleeCritChance>
+					<MeleeCritChance>0.01</MeleeCritChance>
 					<MeleeParryChance>0.00</MeleeParryChance>
 				</value>
 			</li>
