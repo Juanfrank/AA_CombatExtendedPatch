@@ -20,7 +20,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Mantrap"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+					<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
 				</value>
 			</li>
 			
