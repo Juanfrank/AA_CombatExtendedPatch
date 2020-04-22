@@ -27,6 +27,19 @@
 					<MeleeParryChance>0.25</MeleeParryChance>
 				</value>
 			</li>
+				
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AA_Gallatross"]</xpath>
+				<value>
+			<comps>
+                       <li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+				<hediffname>AA_LowBleed</hediffname>
+				<hediffseverity>1</hediffseverity>
+
+			</li>
+		      </comps>
+				</value>
+			</li>
 
 			<li Class="PatchOperationReplace">
 		                 <xpath>Defs/ThingDef[defName="AA_Gallatross"]/race/baseHealthScale</xpath>
