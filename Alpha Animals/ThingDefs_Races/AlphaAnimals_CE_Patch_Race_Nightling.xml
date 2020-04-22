@@ -83,7 +83,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>2</armorPenetrationSharp>
+							<armorPenetrationSharp>1.5</armorPenetrationSharp>
 							<armorPenetrationBlunt>6.144</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
