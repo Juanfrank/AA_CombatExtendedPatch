@@ -20,9 +20,9 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_TeratogenicOriginator"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.25</MeleeDodgeChance>
-					<MeleeCritChance>0.25</MeleeCritChance>
-					<MeleeParryChance>0.28</MeleeParryChance>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
+					<MeleeCritChance>0.04</MeleeCritChance>
+					<MeleeParryChance>0.3</MeleeParryChance>
 				</value>
 			</li>
 
@@ -35,8 +35,8 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>20</power>
-							<cooldownTime>1.2</cooldownTime>
+							<power>5</power>
+							<cooldownTime>0.35</cooldownTime>
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.7</armorPenetrationBlunt>
 						</li>
