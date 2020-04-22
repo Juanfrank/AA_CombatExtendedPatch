@@ -35,7 +35,7 @@
 								<li>AA_LockJawDamage</li>
 							</capacities>
 							<power>45</power>
-							<cooldownTime>3.5</cooldownTime>
+							<cooldownTime>3.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>11.0</armorPenetrationSharp>
 							<armorPenetrationBlunt>25.0</armorPenetrationBlunt>
