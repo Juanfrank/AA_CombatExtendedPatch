@@ -43,8 +43,8 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>78</power>
-							<cooldownTime>2.2</cooldownTime>
+							<power>70</power>
+							<cooldownTime>2.5</cooldownTime>
 							<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>40.226</armorPenetrationBlunt>	
 						</li>
