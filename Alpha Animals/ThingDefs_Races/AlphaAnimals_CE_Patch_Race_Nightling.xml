@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Nightling"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.27</MeleeDodgeChance>
+					<MeleeDodgeChance>0.37</MeleeDodgeChance>
 					<MeleeCritChance>0.2</MeleeCritChance>
 					<MeleeParryChance>0.08</MeleeParryChance>
 				</value>
@@ -35,8 +35,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>11</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>8</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -46,7 +46,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -54,8 +54,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>11</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>8</power>
+							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -65,15 +65,15 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.09</armorPenetrationSharp>
+							<armorPenetrationSharp>0.15</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>ToxicBite</li>
 							</capacities>
-							<power>13</power>
-							<cooldownTime>2</cooldownTime>
+							<power>24</power>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -83,16 +83,16 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.43</armorPenetrationSharp>
-							<armorPenetrationBlunt>1.144</armorPenetrationBlunt>
+							<armorPenetrationSharp>2</armorPenetrationSharp>
+							<armorPenetrationBlunt>6.144</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>3</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>4</power>
+							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.423</armorPenetrationBlunt>
 							<chanceFactor>0.2</chanceFactor>
