@@ -41,6 +41,30 @@
 							<armorPenetrationBlunt>8</armorPenetrationBlunt>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 						</li>
+						<li Class="CombatExtended.ToolCE">	
+							<label>left hoof</label>	
+							<capacities>	
+							  <li>Blunt</li>	
+							  <li>Poke</li>	
+							</capacities>	
+							<power>12</power>	
+							<cooldownTime>2</cooldownTime>	
+							<armorPenetrationBlunt>4</armorPenetrationBlunt>	
+							<armorPenetrationSharp>1</armorPenetrationSharp>	
+							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>	
+						</li>	
+						<li Class="CombatExtended.ToolCE">	
+							<label>right hoof</label>	
+							<capacities>	
+							  <li>Blunt</li>	
+							  <li>Poke</li>	
+							</capacities>	
+							<power>12</power>	
+							<cooldownTime>2</cooldownTime>	
+							<armorPenetrationBlunt>4</armorPenetrationBlunt>	
+							<armorPenetrationSharp>1</armorPenetrationSharp>	
+							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>	
+						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 							  <li>Bite</li>
