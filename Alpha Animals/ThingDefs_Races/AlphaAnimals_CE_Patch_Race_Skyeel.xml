@@ -20,21 +20,21 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Skyeel"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>3</ArmorRating_Blunt>
+					<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Skyeel"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
-					<ArmorRating_Sharp>3</ArmorRating_Sharp>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Skyeel"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.28</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.4</MeleeDodgeChance>
+					<MeleeCritChance>0.03</MeleeCritChance>
 					<MeleeParryChance>0</MeleeParryChance>
 				</value>
 			</li>
@@ -48,10 +48,10 @@
 								<li>AA_Electric</li>
 							</capacities>
 							<power>12</power>
-							<cooldownTime>2.1</cooldownTime>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.14</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+							<armorPenetrationSharp>1</armorPenetrationSharp>
+							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
