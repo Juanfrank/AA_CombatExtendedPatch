@@ -123,13 +123,14 @@
 				<xpath>/Defs/ThingDef[defName="AA_Bullet_Rock"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<flyOverhead>false</flyOverhead>
 						<explosionRadius>1.9</explosionRadius>
 						<damageDef>Bomb</damageDef>
-						<damageAmountBase>20</damageAmountBase>
+						<damageAmountBase>40</damageAmountBase>
+						<soundExplode>MortarBomb_Explode</soundExplode>
 						<speed>20</speed>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
-						<armorPenetrationBlunt>0.760</armorPenetrationBlunt>
+						<armorPenetrationSharp>8</armorPenetrationSharp>
+						<armorPenetrationBlunt>15</armorPenetrationBlunt>
+						<!-- <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors> -->
 					</projectile>
 				</value>
 			</li>
@@ -137,24 +138,15 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Bullet_Rock"]</xpath>
 				<value>
-					<comps>
-						<li Class="CombatExtended.CompProperties_ExplosiveCE">
-							<damageAmountBase>30</damageAmountBase>
-							<explosiveDamageType>Bomb</explosiveDamageType>
-							<explosiveRadius>1.9</explosiveRadius>
-							<explosionSound>MortarBomb_Explode</explosionSound>
-							<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-						</li>
-					
+					<comps>				
 						<li Class="CombatExtended.CompProperties_Fragments">
 							<fragments>
-							<Fragment_Small>10</Fragment_Small>
+							<Fragment_Small>15</Fragment_Small>
 							</fragments>
 						</li>
 					</comps>
 				</value>
 			</li>
-					
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_FrostWeb"]/projectile</xpath>
@@ -208,8 +200,6 @@
 				</value>
 			</li>
 			
-			
-			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_IncendiaryMote"]/projectile</xpath>
 				<value>
@@ -222,7 +212,26 @@
 						<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 						<ai_IsIncendiary>true</ai_IsIncendiary>
 						<soundExplode>Interact_Ignite</soundExplode>
-						<armorPenetrationSharp>4</armorPenetrationSharp>
+						<armorPenetrationSharp>10</armorPenetrationSharp>
+					</projectile>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_ToxicInk"]/projectile</xpath>
+				<value>
+					<projectile Class="CombatExtended.ProjectilePropertiesCE">
+						<speed>40</speed>
+						<damageDef>AA_ToxicBolt</damageDef>
+						<damageAmountBase>40</damageAmountBase>
+						<explosionRadius>3</explosionRadius>
+						<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+						<soundExplode>MortarBomb_Explode</soundExplode>
+						<soundAmbient>MortarRound_Ambient</soundAmbient>
+						<postExplosionSpawnThingDef>AA_SmokeInk</postExplosionSpawnThingDef>
+						<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+						<postExplosionSpawnChance>1</postExplosionSpawnChance>
+						<armorPenetrationSharp>12</armorPenetrationSharp>
 					</projectile>
 				</value>
 			</li>
