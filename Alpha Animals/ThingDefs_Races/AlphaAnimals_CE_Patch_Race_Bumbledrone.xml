@@ -20,8 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Bumbledrone"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.13</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.18</MeleeDodgeChance>
+					<MeleeCritChance>0.05</MeleeCritChance>
 					<MeleeParryChance>0.04</MeleeParryChance>
 				</value>
 			</li>
@@ -34,11 +34,11 @@
 							<capacities>
 								<li>AA_VeryToxicSting</li>
 							</capacities>
-							<power>3</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>12</power>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.21</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.05</armorPenetrationBlunt>
+							<armorPenetrationSharp>1.5</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.75</armorPenetrationBlunt>
 							<chanceFactor>0.8</chanceFactor>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -46,8 +46,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>1</power>
-							<cooldownTime>1.55</cooldownTime>
+							<power>5</power>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<chanceFactor>0.1</chanceFactor>
 							<armorPenetrationSharp>0.18</armorPenetrationSharp>
@@ -57,7 +57,7 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>3</power>
+							<power>4</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.12</armorPenetrationSharp>
@@ -94,11 +94,11 @@
 							<capacities>
 								<li>AA_VeryToxicSting</li>
 							</capacities>
-							<power>4</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>24</power>
+							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.31</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.15</armorPenetrationBlunt>
+							<armorPenetrationSharp>2</armorPenetrationSharp>
+							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 							<chanceFactor>0.8</chanceFactor>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -106,18 +106,18 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>1</power>
-							<cooldownTime>1.55</cooldownTime>
+							<power>7</power>
+							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<chanceFactor>0.1</chanceFactor>
-							<armorPenetrationSharp>0.18</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.10</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.2</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.12</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>3</power>
+							<power>4</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.12</armorPenetrationSharp>
