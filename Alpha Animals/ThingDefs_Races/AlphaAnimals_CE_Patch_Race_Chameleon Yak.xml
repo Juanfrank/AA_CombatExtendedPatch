@@ -52,7 +52,7 @@
 							<armorPenetrationBlunt>4</armorPenetrationBlunt>
 							<armorPenetrationSharp>1</armorPenetrationSharp>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-						</li>	
+						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right hoof</label>
 							<capacities>
