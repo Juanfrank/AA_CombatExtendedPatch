@@ -21,8 +21,8 @@
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.1</MeleeDodgeChance>
-					<MeleeCritChance>0.48</MeleeCritChance>
-					<MeleeParryChance>0.36</MeleeParryChance>
+					<MeleeCritChance>0.45</MeleeCritChance>
+					<MeleeParryChance>0.4</MeleeParryChance>
 				</value>
 			</li>
 				
@@ -49,7 +49,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>25</power>
+							<power>26</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>3</armorPenetrationSharp>
@@ -60,7 +60,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>25</power>
+							<power>26</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>3</armorPenetrationSharp>
@@ -70,7 +70,7 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>15</power>
+							<power>21</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
 							<armorPenetrationSharp>10</armorPenetrationSharp>
