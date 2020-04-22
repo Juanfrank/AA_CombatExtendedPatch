@@ -48,8 +48,8 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>25</power>
-							<cooldownTime>1.9</cooldownTime>
+							<power>32</power>
+							<cooldownTime>3.6</cooldownTime>
 							<surpriseAttack>
 								<extraMeleeDamages>
 									<li>
