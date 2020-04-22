@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_MammothWorm"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Serpentine</bodyShape>
+						<bodyShape>Quadruped</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -26,7 +26,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_MammothWorm"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
-					<ArmorRating_Sharp>12</ArmorRating_Sharp>
+					<ArmorRating_Sharp>14</ArmorRating_Sharp>
 				</value>
 			</li>
 			
@@ -34,7 +34,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_MammothWorm"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.08</MeleeDodgeChance>
-					<MeleeCritChance>0.2</MeleeCritChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 					<MeleeParryChance>0.23</MeleeParryChance>
 				</value>
 			</li>
