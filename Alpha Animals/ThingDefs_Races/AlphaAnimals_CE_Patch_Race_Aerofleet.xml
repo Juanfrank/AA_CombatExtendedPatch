@@ -68,7 +68,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_ColossalAerofleet"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.16</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeCritChance>0.05</MeleeCritChance>
 					<MeleeParryChance>0.11</MeleeParryChance>
 				</value>
 			</li>
@@ -81,18 +81,18 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>20</power>
+							<power>14</power>
 							<cooldownTime>2.5</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>1.035</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+							<armorPenetrationSharp>1.0</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>tentacles</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>16</power>
+							<power>12</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1.015</armorPenetrationBlunt>
