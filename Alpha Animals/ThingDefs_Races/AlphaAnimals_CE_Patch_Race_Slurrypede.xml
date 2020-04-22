@@ -51,7 +51,7 @@
 								<li>Blunt</li>
 							</capacities>
 							<power>20</power>
-							<cooldownTime>2.72</cooldownTime>
+							<cooldownTime>3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>3</armorPenetrationBlunt>
 						</li>
