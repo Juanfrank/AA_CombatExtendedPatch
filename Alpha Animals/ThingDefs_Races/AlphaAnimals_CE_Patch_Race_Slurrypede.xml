@@ -20,11 +20,26 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Slurrypede"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.12</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<MeleeCritChance>0.25</MeleeCritChance>
 					<MeleeParryChance>0.17</MeleeParryChance>
 				</value>
 			</li>
+				
+					<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_Slurrypede"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</li>
+
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_Slurrypede"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+		</value>
+	</li>
+
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Slurrypede"]/tools</xpath>
@@ -35,10 +50,10 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>8</power>
-							<cooldownTime>2.6</cooldownTime>
+							<power>20</power>
+							<cooldownTime>2.72</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+							<armorPenetrationBlunt>3</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
