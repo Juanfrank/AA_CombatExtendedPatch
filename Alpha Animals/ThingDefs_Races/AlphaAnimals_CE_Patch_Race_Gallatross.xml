@@ -23,11 +23,17 @@
 					<ArmorRating_Blunt>30</ArmorRating_Blunt>
 					<ArmorRating_Sharp>18</ArmorRating_Sharp>
 					<MeleeDodgeChance>0.02</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
-					<MeleeParryChance>0.36</MeleeParryChance>
+					<MeleeCritChance>1.75</MeleeCritChance>
+					<MeleeParryChance>0.25</MeleeParryChance>
 				</value>
 			</li>
 
+			<li Class="PatchOperationReplace">
+		                 <xpath>Defs/ThingDef[defName="AA_Gallatross"]/race/baseHealthScale</xpath>
+		                 <value>
+			               <baseHealthScale>15</baseHealthScale>
+		                 </value>
+	                </li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Gallatross"]/tools</xpath>
 				<value>
@@ -37,29 +43,30 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>27</power>
-							<cooldownTime>1.5</cooldownTime>
+							<power>70</power>
+							<cooldownTime>2.5</cooldownTime>
 							<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>31.226</armorPenetrationBlunt>	
+							<armorPenetrationBlunt>40.226</armorPenetrationBlunt>	
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>12</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>40</power>
+							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>21</armorPenetrationBlunt>	
+							<armorPenetrationSharp>16</armorPenetrationSharp>
+							<armorPenetrationBlunt>28</armorPenetrationBlunt>	
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>9</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>36</power>
+							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>20</armorPenetrationBlunt>	
+							<armorPenetrationBlunt>25</armorPenetrationBlunt>	
 							<chanceFactor>0.1</chanceFactor>
 						</li>
 					</tools>
