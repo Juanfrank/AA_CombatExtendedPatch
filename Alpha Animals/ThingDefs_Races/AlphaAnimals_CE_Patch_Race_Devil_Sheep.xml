@@ -21,8 +21,8 @@
 				<xpath>/Defs/ThingDef[defName="AA_DevilSheep"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.11</MeleeDodgeChance>
-					<MeleeCritChance>0.01</MeleeCritChance>
-					<MeleeParryChance>0.01</MeleeParryChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeParryChance>0.03</MeleeParryChance>
 				</value>
 			</li>
 
