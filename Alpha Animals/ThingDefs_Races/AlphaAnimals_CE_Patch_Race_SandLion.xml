@@ -72,7 +72,7 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>30</power>
+							<power>27</power>
 							<cooldownTime>1.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
