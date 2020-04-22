@@ -208,7 +208,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_Bullet_Rock</defaultProjectile>
-											<warmupTime>0.66</warmupTime>
+											<warmupTime>1</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -509,7 +509,7 @@
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_IncendiaryMote</defaultProjectile>
 										<warmupTime>2</warmupTime>
-										<burstShotCount>1</burstShotCount>
+										<burstShotCount>3</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
 										<range>30</range>
