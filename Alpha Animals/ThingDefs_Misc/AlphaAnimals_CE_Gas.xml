@@ -22,6 +22,14 @@
 						<thingClass>CombatExtended.Smoke</thingClass>
 					</value>
 				</li>
+					
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_SandPuff"]/gas/accuracyPenalty</xpath>
+						<value>
+							<accuracyPenalty>1</accuracyPenalty>
+						</value>
+					</xpath>
+				</li>
 			</operations>
 		</match>
 	</Operation>
