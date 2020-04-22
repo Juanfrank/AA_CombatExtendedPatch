@@ -205,13 +205,12 @@
 							<value>
 								<verbs>
 									<li Class="CombatExtended.VerbPropertiesCE">
-										<verbClass>Verb_LaunchProjectileCE</verbClass>
+										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_Bullet_Rock</defaultProjectile>
 											<warmupTime>0.66</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-											<forcedMissRadius>2</forcedMissRadius>
 											<minRange>2</minRange>
 											<range>30</range>
 											<soundCast>AA_RockThrow</soundCast>
@@ -514,7 +513,6 @@
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
 										<range>30</range>
-										<forcedMissRadius>2</forcedMissRadius>
 										<soundCast>AA_PoisonBolt</soundCast>
 										<muzzleFlashScale>0</muzzleFlashScale>
 										<commonality>0.9</commonality>
