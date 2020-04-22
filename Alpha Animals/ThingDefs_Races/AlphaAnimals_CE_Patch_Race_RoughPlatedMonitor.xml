@@ -20,7 +20,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_RoughPlatedMonitor"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>2</ArmorRating_Blunt>
+					<ArmorRating_Blunt>3</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -34,7 +34,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_RoughPlatedMonitor"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.03</MeleeDodgeChance>
-					<MeleeCritChance>0.17</MeleeCritChance>
+					<MeleeCritChance>0.24</MeleeCritChance>
 					<MeleeParryChance>0.14</MeleeParryChance>
 				</value>
 			</li>
@@ -48,7 +48,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>10</power>
+							<power>12</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -59,7 +59,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.5</armorPenetrationSharp>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
 							<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -67,7 +67,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>10</power>
+							<power>12</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -78,7 +78,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.5</armorPenetrationSharp>
+							<armorPenetrationSharp>0.4</armorPenetrationSharp>
 							<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -86,11 +86,11 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>18</power>
-							<cooldownTime>2</cooldownTime>
+							<power>25</power>
+							<cooldownTime>2.2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<chanceFactor>0.9</chanceFactor>
-							<armorPenetrationSharp>0.3</armorPenetrationSharp>
+							<armorPenetrationSharp>0.7</armorPenetrationSharp>
 							<armorPenetrationBlunt>2</armorPenetrationBlunt>
 
 						</li>
@@ -99,7 +99,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>5</power>
+							<power>10</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
