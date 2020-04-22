@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Nightling"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.37</MeleeDodgeChance>
-					<MeleeCritChance>0.2</MeleeCritChance>
+					<MeleeCritChance>0.18</MeleeCritChance>
 					<MeleeParryChance>0.08</MeleeParryChance>
 				</value>
 			</li>
@@ -73,7 +73,7 @@
 								<li>ToxicBite</li>
 							</capacities>
 							<power>24</power>
-							<cooldownTime>1.45</cooldownTime>
+							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
