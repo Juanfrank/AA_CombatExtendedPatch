@@ -8,6 +8,136 @@
 			<match Class="PatchOperationSequence">
 				<operations>
 
+			<!-- ====== Adding custom bodytype for TurtleLike creatures ======= -->
+			
+					<li Class="PatchOperationAdd">
+					<xpath>/Defs/BodyDef</xpath>
+					<defName>AA_TurtleLike</defName>
+					<label>turtle-like</label>
+						<corePart>
+						<def>Shell</def>
+						<coverage>0.8</def>
+						<height>Middle</height>
+						<depth>Outside</depth>
+						<groups>
+							<li>CoveredByNaturalArmor</li>
+						</groups>
+						<parts>
+							<li>
+								<def>Plastron</def>
+								<coverage>0.06</coverage>
+								<height>Bottom</height>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</li>
+							<li>
+								<def>Spine</def>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Stomach</def>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Heart</def>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Lung</def>
+								<customLabel>left lung</customLabel>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Lung</def>
+								<customLabel>right lung</customLabel>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Kidney</def>
+								<customLabel>left kidney</customLabel>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Kidney</def>
+								<customLabel>right kidney</customLabel>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Liver</def>
+								<coverage>0.03</coverage>
+								<depth>Inside</depth>
+							</li>
+							<li>
+								<def>Head</def>
+								<coverage>0.07</coverage>
+								<groups>
+									<li>HeadAttackTool</li>
+								</groups>
+								<parts>
+									<li>
+										<def>Brain</def>
+										<coverage>0.18</coverage>
+										<depth>Inside</depth>
+									</li>
+									<li>
+										<def>Eye</def>
+										<customLabel>left eye</customLabel>
+										<coverage>0.15</coverage>
+									</li>
+									<li>
+										<def>Eye</def>
+										<customLabel>right eye</customLabel>
+										<coverage>0.15</coverage>
+									</li>
+									<li>
+										<def>Nose</def>
+										<coverage>0.15</coverage>
+										</li>
+									<li>
+										<def>TurtleBeak</def>
+										<coverage>0.20</coverage>
+										<groups>
+									<li>TurtleBeakAttackTool</li>
+									</groups>
+									</li>
+								</parts>
+							</li>
+							<li>
+								<def>Leg</def>
+								<customLabel>front left leg</customLabel>
+								<coverage>0.02</coverage>
+								<height>Bottom</height>
+							</li>
+							<li>
+								<def>Leg</def>
+								<customLabel>front right leg</customLabel>
+								<coverage>0.02</coverage>
+								<height>Bottom</height>
+							</li>
+							<li>
+								<def>Leg</def>
+								<customLabel>rear left leg</customLabel>
+								<coverage>0.02</coverage>
+								<height>Bottom</height>
+							</li>
+							<li>
+								<def>Leg</def>
+								<customLabel>rear right leg</customLabel>
+								<coverage>0.02</coverage>
+								<height>Bottom</height>
+							</li>
+						</parts>
+						</corePart>
+					</li>
+			
 			<!-- ====== Animal_Jellyfish ====== -->
 
 			<!-- Doesn't apply -->
