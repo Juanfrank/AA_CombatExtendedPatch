@@ -8,6 +8,30 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="AA_AcidicWeb" or
+				defName="AA_Bullet_Barb" or
+				defName="AA_Bullet_VenomBarb" or
+				defName="AA_FireWeb" or
+				defName="AA_FrostWeb" or
+				defName="AA_Plasma" or
+				defName="AA_PoisonBolt" or
+				defName="AA_Quill" or
+				defName="AA_RedPoisonBolt" or
+				defName="AA_Web"
+				]/thingClass</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_Bullet_Rock" or
+				defName="AA_ToxicInk" or
+				defName="AA_IncendiaryMote"
+				]/thingClass</xpath>
+				<value>
+					<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+				</value>
+			</li>
+						
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Bullet_Barb"]/projectile</xpath>
 				<value>
@@ -158,7 +182,9 @@
 					</projectile>
 				</value>
 			</li>
-
+			
+			
+			
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_IncendiaryMote"]/projectile</xpath>
 				<value>
