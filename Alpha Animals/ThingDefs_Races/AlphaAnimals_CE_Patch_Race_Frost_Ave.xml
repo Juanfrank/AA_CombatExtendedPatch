@@ -20,8 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_FrostAve"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.32</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.35</MeleeDodgeChance>
+					<MeleeCritChance>0.15</MeleeCritChance>
 					<MeleeParryChance>0.07</MeleeParryChance>
 				</value>
 			</li>
@@ -35,8 +35,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>15</power>
-							<cooldownTime>1.55</cooldownTime>
+							<power>17</power>
+							<cooldownTime>1.4</cooldownTime>
 							<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -46,15 +46,15 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.215</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.215</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.3</armorPenetrationSharp>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>9</power>
-							<cooldownTime>1.85</cooldownTime>
+							<power>18</power>
+							<cooldownTime>1.9</cooldownTime>
 							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -64,16 +64,16 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.05</armorPenetrationSharp>
-							<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.9</armorPenetrationSharp>
+							<armorPenetrationBlunt>2</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>3</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>8</power>
+							<cooldownTime>1.75</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 							<chanceFactor>0.2</chanceFactor>

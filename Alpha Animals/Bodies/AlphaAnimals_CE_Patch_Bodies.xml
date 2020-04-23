@@ -1520,24 +1520,6 @@
 					</li>
 					
 					<li Class="PatchOperationConditional">
-					<xpath>/Defs/BodyDef[defName="AA_ScorpionLike"]/corePart/parts/li[def="AA_InsectTail"]/groups</xpath>
-					<nomatch Class="PatchOperationAdd">
-							<xpath>/Defs/BodyDef[defName="AA_ScorpionLike"]/corePart/parts/li[def="AA_InsectTail"]</xpath>
-							<value>
-								<groups>
-									<li>CoveredByNaturalArmor</li>
-								</groups>
-							</value>
-					</nomatch>
-					<match Class="PatchOperationAdd">
-						<xpath>/Defs/BodyDef[defName="AA_ScorpionLike"]/corePart/parts/li[def="AA_InsectTail"]/groups</xpath>
-						<value>
-							<li>CoveredByNaturalArmor</li>
-						</value>
-					</match>
-					</li>
-					
-					<li Class="PatchOperationConditional">
 					<xpath>/Defs/BodyDef[defName="AA_ScorpionLike"]/corePart/parts/li[def="AA_InsectTail"]/parts/li[def="AA_InsectSting"]/groups</xpath>
 					<nomatch Class="PatchOperationAdd">
 							<xpath>/Defs/BodyDef[defName="AA_ScorpionLike"]/corePart/parts/li[def="AA_InsectTail"]/parts/li[def="AA_InsectSting"]</xpath>
@@ -1554,7 +1536,6 @@
 						</value>
 					</match>
 					</li>					
-
 
 					<!-- ====== AA_SlurrypedeBody ====== -->
 					

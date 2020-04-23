@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_InfectedAerofleet"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.20</MeleeDodgeChance>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
 					<MeleeCritChance>0.01</MeleeCritChance>
 					<MeleeParryChance>0.00</MeleeParryChance>
 				</value>

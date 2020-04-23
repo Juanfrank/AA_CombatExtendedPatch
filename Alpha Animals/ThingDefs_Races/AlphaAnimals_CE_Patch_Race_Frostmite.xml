@@ -33,8 +33,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Frostmite"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.13</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.15</MeleeDodgeChance>
+					<MeleeCritChance>0.01</MeleeCritChance>
 					<MeleeParryChance>0.02</MeleeParryChance>
 				</value>
 			</li>
@@ -48,10 +48,10 @@
 							<capacities>
 								<li>Cut</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>2</cooldownTime>
+							<power>6</power>
+							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.12</armorPenetrationSharp>
+							<armorPenetrationSharp>0.2</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.34</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -70,7 +70,7 @@
 								<li>Blunt</li>
 							</capacities>
 							<power>2</power>
-							<cooldownTime>1.65</cooldownTime>
+							<cooldownTime>1.1</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
 							<chanceFactor>0.2</chanceFactor>

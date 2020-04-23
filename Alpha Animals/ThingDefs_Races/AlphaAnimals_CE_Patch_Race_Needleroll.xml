@@ -20,16 +20,16 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Needleroll"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				</value>
 			</li>
 			
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Needleroll"]/statBases</xpath>
 				<value>
-					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-					<MeleeDodgeChance>0.07</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
+					<MeleeCritChance>0.04</MeleeCritChance>
 					<MeleeParryChance>0</MeleeParryChance>
 				</value>
 			</li>
@@ -43,7 +43,7 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>3</power>
+							<power>4</power>
 							<cooldownTime>1.35</cooldownTime>
 							<armorPenetrationSharp>0.14</armorPenetrationSharp>
 						</li>
@@ -52,7 +52,7 @@
 								<li>Bite</li>
 							</capacities>
 							<power>6</power>
-							<cooldownTime>1.35</cooldownTime>
+							<cooldownTime>1.55</cooldownTime>
 							<linkedBodyPartsGroup>AA_Mouth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.14</armorPenetrationSharp>
 							<armorPenetrationBlunt>1</armorPenetrationBlunt>

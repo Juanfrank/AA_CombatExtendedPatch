@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_NightMule"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>QuadrupedLow</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -35,11 +35,11 @@
 						<capacities>
 						  <li>Scratch</li>
 						</capacities>
-						<power>15</power>
+						<power>16</power>
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
-						<armorPenetrationBlunt>5</armorPenetrationBlunt>
-						<armorPenetrationSharp>10</armorPenetrationSharp>
+						<armorPenetrationBlunt>4</armorPenetrationBlunt>
+						<armorPenetrationSharp>2</armorPenetrationSharp>
 					  </li>
 						<li Class="CombatExtended.ToolCE">
 						<label>head</label>
@@ -62,7 +62,6 @@
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>4</armorPenetrationBlunt>
-						<armorPenetrationSharp>2</armorPenetrationSharp>
 					  </li>
 						<li Class="CombatExtended.ToolCE">
 						<label>right hoof</label>
@@ -74,7 +73,6 @@
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>4</armorPenetrationBlunt>
-						<armorPenetrationSharp>2</armorPenetrationSharp>
 					  </li>
 						<li Class="CombatExtended.ToolCE">
 						<capacities>
@@ -84,8 +82,8 @@
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 						<chanceFactor>0.5</chanceFactor>
-						<armorPenetrationBlunt>6</armorPenetrationBlunt>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
+						<armorPenetrationBlunt>4</armorPenetrationBlunt>
+						<armorPenetrationSharp>0.5</armorPenetrationSharp>
 					  </li>
 					</tools>
 				</value>

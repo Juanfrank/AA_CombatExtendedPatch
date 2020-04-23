@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_ArcticLion"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.28</MeleeDodgeChance>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
 					<MeleeCritChance>0.3</MeleeCritChance>
 					<MeleeParryChance>0.14</MeleeParryChance>
 				</value>
@@ -36,7 +36,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>18</power>
-							<cooldownTime>1</cooldownTime>
+							<cooldownTime>0.9</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -46,8 +46,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.55</armorPenetrationSharp>
-							<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.6</armorPenetrationSharp>
+							<armorPenetrationBlunt>3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
@@ -55,7 +55,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>18</power>
-							<cooldownTime>1</cooldownTime>
+							<cooldownTime>0.9</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -65,8 +65,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.55</armorPenetrationSharp>
-							<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							<armorPenetrationSharp>0.6</armorPenetrationSharp>
+							<armorPenetrationBlunt>3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
@@ -84,14 +84,14 @@
 								</extraMeleeDamages>
 							</surpriseAttack>
 							<armorPenetrationSharp>4.5</armorPenetrationSharp>
-							<armorPenetrationBlunt>8.944</armorPenetrationBlunt>
+							<armorPenetrationBlunt>10</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>9</power>
+							<power>11</power>
 							<cooldownTime>1.75</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>2</armorPenetrationBlunt>
