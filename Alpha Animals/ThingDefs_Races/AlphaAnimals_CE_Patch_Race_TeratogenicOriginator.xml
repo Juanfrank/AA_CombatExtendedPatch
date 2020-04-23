@@ -35,7 +35,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>5</power>
+							<power>7</power>
 							<cooldownTime>0.35</cooldownTime>
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.7</armorPenetrationBlunt>
