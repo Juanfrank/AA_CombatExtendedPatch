@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_SandLion"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.4</MeleeDodgeChance>
+					<MeleeDodgeChance>0.45</MeleeDodgeChance>
 					<MeleeCritChance>0.25</MeleeCritChance>
 					<MeleeParryChance>0.14</MeleeParryChance>
 				</value>
@@ -36,7 +36,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>15</power>
-							<cooldownTime>0.88</cooldownTime>
+							<cooldownTime>0.8</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -55,7 +55,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>15</power>
-							<cooldownTime>0.88</cooldownTime>
+							<cooldownTime>0.8</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
