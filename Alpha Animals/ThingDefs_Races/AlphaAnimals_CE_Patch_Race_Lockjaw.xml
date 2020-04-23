@@ -34,11 +34,11 @@
 							<capacities>
 								<li>AA_LockJawDamage</li>
 							</capacities>
-							<power>42</power>
-							<cooldownTime>3.2</cooldownTime>
+							<power>45</power>
+							<cooldownTime>3.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>11.0</armorPenetrationSharp>
-							<armorPenetrationBlunt>15.0</armorPenetrationBlunt>
+							<armorPenetrationBlunt>20.0</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
