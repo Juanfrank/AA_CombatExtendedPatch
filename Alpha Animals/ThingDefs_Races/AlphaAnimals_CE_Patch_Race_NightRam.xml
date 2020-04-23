@@ -39,7 +39,7 @@
 						<cooldownTime>1.8</cooldownTime>
 						<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>5</armorPenetrationBlunt>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
+						<armorPenetrationSharp>4</armorPenetrationSharp>
 					  </li>
 						<li Class="CombatExtended.ToolCE">
 						<label>left hoof</label>
