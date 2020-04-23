@@ -38,7 +38,7 @@
 							<cooldownTime>3.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationSharp>11.0</armorPenetrationSharp>
-							<armorPenetrationBlunt>25.0</armorPenetrationBlunt>
+							<armorPenetrationBlunt>20.0</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
