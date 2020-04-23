@@ -11,7 +11,7 @@
 			<!-- ====== Adding custom bodytype for TurtleLike creatures ======= -->
 			
 					<li Class="PatchOperationAdd">
-					<xpath>/Defs/</xpath>
+					<xpath>/Defs</xpath>
 						<value>
 							<BodyDef>
 								<defName>AA_TurtleLike</defName>
