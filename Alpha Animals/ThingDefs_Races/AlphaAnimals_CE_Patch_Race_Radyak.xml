@@ -54,9 +54,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>10</power>
+							<power>7</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.700</armorPenetrationBlunt>
@@ -67,10 +67,10 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>13</power>
-							<cooldownTime>2.6</cooldownTime>
+							<power>16</power>
+							<cooldownTime>2.2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
+							<armorPenetrationBlunt>3.125</armorPenetrationBlunt>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 						</li>
 					</tools>
