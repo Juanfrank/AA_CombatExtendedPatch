@@ -47,8 +47,8 @@
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>8</power>
-							<cooldownTime>2.6</cooldownTime>
+							<power>6</power>
+							<cooldownTime>2.2</cooldownTime>
 							<linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.33</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.750</armorPenetrationBlunt>
