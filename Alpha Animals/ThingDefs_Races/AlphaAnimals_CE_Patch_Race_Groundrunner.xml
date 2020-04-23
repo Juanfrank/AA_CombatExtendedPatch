@@ -42,8 +42,8 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>21</power>
-							<cooldownTime>2.4</cooldownTime>
+							<power>22</power>
+							<cooldownTime>2.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -54,15 +54,15 @@
 								</extraMeleeDamages>
 							</surpriseAttack>
 							<armorPenetrationSharp>7</armorPenetrationSharp>
-							<armorPenetrationBlunt>14</armorPenetrationBlunt>
+							<armorPenetrationBlunt>15</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>21</power>
-							<cooldownTime>2.4</cooldownTime>
+							<power>22</power>
+							<cooldownTime>2.35</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -73,14 +73,14 @@
 								</extraMeleeDamages>
 							</surpriseAttack>
 							<armorPenetrationSharp>7</armorPenetrationSharp>
-							<armorPenetrationBlunt>14</armorPenetrationBlunt>
+							<armorPenetrationBlunt>15</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Bite</li>
 							</capacities>
-							<power>17</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>14</power>
+							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
