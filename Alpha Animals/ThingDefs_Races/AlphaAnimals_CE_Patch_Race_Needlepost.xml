@@ -30,7 +30,7 @@
 					<ArmorRating_Sharp>0.12</ArmorRating_Sharp>
 					<MeleeDodgeChance>0.25</MeleeDodgeChance>
 					<MeleeCritChance>0.1</MeleeCritChance>
-					<MeleeParryChance>0.5</MeleeParryChance>
+					<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 
