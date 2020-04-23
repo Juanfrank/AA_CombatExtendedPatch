@@ -45,7 +45,7 @@
 							</capacities>
 							<power>18</power>
 							<cooldownTime>2</cooldownTime>
-							<armorPenetrationSharp>0.3/armorPenetrationSharp>
+							<armorPenetrationSharp>0.3</armorPenetrationSharp>
 							<armorPenetrationBlunt>1</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
