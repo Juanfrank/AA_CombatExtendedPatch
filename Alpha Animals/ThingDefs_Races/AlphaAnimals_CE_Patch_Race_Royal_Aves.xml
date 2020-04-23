@@ -46,7 +46,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>0.3</armorPenetrationSharp>
+							<armorPenetrationSharp>0.2</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
@@ -75,7 +75,7 @@
 							<power>6</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>3</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
 							<chanceFactor>0.2</chanceFactor>
 						</li>
 					</tools>
