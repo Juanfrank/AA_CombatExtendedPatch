@@ -55,8 +55,8 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>11</damageAmountBase>
-						<speed>30</speed>
+						<damageAmountBase>8</damageAmountBase>
+						<speed>40</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
 					</projectile>
@@ -69,7 +69,7 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>8</damageAmountBase>
+						<damageAmountBase>11</damageAmountBase>
 						<speed>40</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
@@ -84,7 +84,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
 						<damageAmountBase>24</damageAmountBase>
-						<speed>24</speed>
+						<speed>30</speed>
 						<armorPenetrationSharp>16</armorPenetrationSharp>
 						<armorPenetrationBlunt>14.4</armorPenetrationBlunt>
 					</projectile>
@@ -98,7 +98,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>20</damageAmountBase>
-						<speed>20</speed>
+						<speed>35</speed>
 						<armorPenetrationSharp>3</armorPenetrationSharp>
 						<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
 					</projectile>
@@ -111,10 +111,10 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>4</damageAmountBase>
-						<speed>28</speed>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+						<damageAmountBase>7</damageAmountBase>
+						<speed>40</speed>
+						<armorPenetrationSharp>1.5</armorPenetrationSharp>
+						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -125,11 +125,11 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<explosionRadius>1</explosionRadius>
 						<damageDef>Bomb</damageDef>
-						<damageAmountBase>40</damageAmountBase>
+						<damageAmountBase>35</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
-						<speed>20</speed>
-						<armorPenetrationSharp>10</armorPenetrationSharp>
-						<armorPenetrationBlunt>18</armorPenetrationBlunt>
+						<speed>18</speed>
+						<armorPenetrationSharp>5</armorPenetrationSharp>
+						<armorPenetrationBlunt>25</armorPenetrationBlunt>
 						<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					</projectile>
 				</value>
