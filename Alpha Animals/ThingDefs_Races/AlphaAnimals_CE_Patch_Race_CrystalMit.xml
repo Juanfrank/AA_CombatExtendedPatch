@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_CrystalMit"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>QuadrupedLow</bodyShape>
+						<bodyShape>Quadruped</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -20,13 +20,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_CrystalMit"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>10</ArmorRating_Blunt>
+					<ArmorRating_Blunt>12</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_CrystalMit"]/statBases/ArmorRating_Sharp</xpath>
 				<value>
-					<ArmorRating_Sharp>6</ArmorRating_Sharp>
+					<ArmorRating_Sharp>20</ArmorRating_Sharp>
 				</value>
 			</li>
 			
@@ -34,7 +34,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_CrystalMit"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.02</MeleeDodgeChance>
-					<MeleeCritChance>0.02</MeleeCritChance>
+					<MeleeCritChance>0.07</MeleeCritChance>
 					<MeleeParryChance>0.04</MeleeParryChance>
 				</value>
 			</li>
