@@ -18,7 +18,7 @@
 								<label>turtle-like</label>
 									<corePart>
 									<def>Shell</def>
-									<coverage>0.8</def>
+									<coverage>0.8</coverage>
 									<height>Middle</height>
 									<depth>Outside</depth>
 									<groups>
