@@ -123,13 +123,13 @@
 				<xpath>/Defs/ThingDef[defName="AA_Bullet_Rock"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<explosionRadius>1.9</explosionRadius>
+						<explosionRadius>1</explosionRadius>
 						<damageDef>Bomb</damageDef>
-						<damageAmountBase>40</damageAmountBase>
+						<damageAmountBase>35</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
 						<speed>20</speed>
-						<armorPenetrationSharp>8</armorPenetrationSharp>
-						<armorPenetrationBlunt>15</armorPenetrationBlunt>
+						<armorPenetrationSharp>10</armorPenetrationSharp>
+						<armorPenetrationBlunt>18</armorPenetrationBlunt>
 						<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 					</projectile>
 				</value>
@@ -141,7 +141,8 @@
 					<comps>				
 						<li Class="CombatExtended.CompProperties_Fragments">
 							<fragments>
-							<Fragment_Small>7</Fragment_Small>
+							<Fragment_Small>14</Fragment_Small>
+							<Fragment_Large>4</Fragment_Large>
 							</fragments>
 						</li>
 					</comps>

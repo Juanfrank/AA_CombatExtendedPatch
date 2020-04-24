@@ -58,7 +58,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>10</power>
+							<power>8</power>
 							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>AA_TentacleAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.55</armorPenetrationBlunt>

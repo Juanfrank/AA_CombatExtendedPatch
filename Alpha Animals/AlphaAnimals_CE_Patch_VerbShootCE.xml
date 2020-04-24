@@ -30,7 +30,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -51,7 +51,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-											<warmupTime>2</warmupTime>
+											<warmupTime>1.5</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -74,7 +74,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_Bullet_Barb</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>3</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -97,7 +97,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_FrostWeb</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>3</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>1</minRange>
@@ -118,7 +118,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_FrostWeb</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>3</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>1</minRange>
@@ -139,7 +139,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_FireWeb</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>2</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -162,7 +162,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_FireWeb</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>3</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>1</minRange>
@@ -185,7 +185,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_Web</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>2</warmupTime>
 											<burstShotCount>3</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>1</minRange>
@@ -208,7 +208,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_Bullet_Rock</defaultProjectile>
-											<warmupTime>1</warmupTime>
+											<warmupTime>3</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -232,7 +232,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>1.5</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -255,7 +255,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_RedPoisonBolt</defaultProjectile>
-											<warmupTime>3</warmupTime>
+											<warmupTime>1.5</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 											<minRange>2</minRange>
@@ -279,7 +279,7 @@
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_AcidicWeb</defaultProjectile>
 										<warmupTime>3</warmupTime>
-										<burstShotCount>3</burstShotCount>
+										<burstShotCount>2</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>1</minRange>
 										<range>25</range>
@@ -301,7 +301,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_AcidBolt</defaultProjectile>
-										<warmupTime>2</warmupTime>
+										<warmupTime>1.1</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -324,7 +324,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_Bullet_VenomBarb</defaultProjectile>
-										<warmupTime>2</warmupTime>
+										<warmupTime>1.1</warmupTime>
 										<burstShotCount>12</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -347,7 +347,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_Bullet_VenomBarb</defaultProjectile>
-										<warmupTime>2</warmupTime>
+										<warmupTime>1.1</warmupTime>
 										<burstShotCount>5</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -370,11 +370,11 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_Quill</defaultProjectile>
-										<warmupTime>3</warmupTime>
+										<warmupTime>1</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
-										<range>8</range>
+										<range>12</range>
 										<soundCast>AA_DartSound</soundCast>
 										<muzzleFlashScale>0</muzzleFlashScale>
 										<commonality>0.6</commonality>
@@ -393,7 +393,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_Quill</defaultProjectile>
-										<warmupTime>3</warmupTime>
+										<warmupTime>2</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -416,7 +416,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_RedPoisonBolt</defaultProjectile>
-										<warmupTime>3</warmupTime>
+										<warmupTime>2</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -439,7 +439,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_RedPoisonBolt</defaultProjectile>
-										<warmupTime>3</warmupTime>
+										<warmupTime>1.5</warmupTime>
 										<burstShotCount>1</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -462,7 +462,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_RedPoisonBolt</defaultProjectile>
-										<warmupTime>3</warmupTime>
+										<warmupTime>1.5</warmupTime>
 										<burstShotCount>4</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -485,7 +485,7 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_Plasma</defaultProjectile>
-										<warmupTime>7</warmupTime>
+										<warmupTime>4</warmupTime>
 										<burstShotCount>4</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
@@ -509,7 +509,7 @@
 										<hasStandardCommand>true</hasStandardCommand>
 										<defaultProjectile>AA_IncendiaryMote</defaultProjectile>
 										<warmupTime>2</warmupTime>
-										<burstShotCount>3</burstShotCount>
+										<burstShotCount>5</burstShotCount>
 										<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 										<minRange>2</minRange>
 										<range>30</range>

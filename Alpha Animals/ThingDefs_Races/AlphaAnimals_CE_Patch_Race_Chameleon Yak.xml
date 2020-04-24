@@ -35,7 +35,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>23</power>
+							<power>22</power>
 							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>8</armorPenetrationBlunt>
@@ -47,7 +47,7 @@
 							  <li>Blunt</li>
 							  <li>Poke</li>
 							</capacities>
-							<power>12</power>
+							<power>11</power>
 							<cooldownTime>2</cooldownTime>
 							<armorPenetrationBlunt>4</armorPenetrationBlunt>
 							<armorPenetrationSharp>1</armorPenetrationSharp>
@@ -59,7 +59,7 @@
 							  <li>Blunt</li>
 							  <li>Poke</li>
 							</capacities>
-							<power>12</power>
+							<power>11</power>
 							<cooldownTime>2</cooldownTime>
 							<armorPenetrationBlunt>4</armorPenetrationBlunt>
 							<armorPenetrationSharp>1</armorPenetrationSharp>

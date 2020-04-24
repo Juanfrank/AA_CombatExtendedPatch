@@ -20,8 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_ShockGoat"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.26</MeleeDodgeChance>
-					<MeleeCritChance>0.14</MeleeCritChance>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+					<MeleeCritChance>0.07</MeleeCritChance>
 					<MeleeParryChance>0.05</MeleeParryChance>
 				</value>
 			</li>
@@ -36,10 +36,10 @@
 								<li>AA_Electric</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>5</power>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right hoof</label>
@@ -47,29 +47,29 @@
 								<li>AA_Electric</li>
 								<li>Poke</li>
 							</capacities>
-							<power>7</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>5</power>
+							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.125</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>3</power>
+							<power>5</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>0.650</armorPenetrationBlunt>
+							<armorPenetrationBlunt>0.60</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>horns</label>
 							<capacities>
 								<li>AA_Electric</li>
 							</capacities>
-							<power>3</power>
+							<power>6</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.03</armorPenetrationSharp>
+							<armorPenetrationSharp>0.1</armorPenetrationSharp>
 							<armorPenetrationBlunt>0.750</armorPenetrationBlunt>
 						</li>
 					</tools>

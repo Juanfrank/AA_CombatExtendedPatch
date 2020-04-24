@@ -20,7 +20,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Nightling"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.37</MeleeDodgeChance>
+					<MeleeDodgeChance>0.33</MeleeDodgeChance>
 					<MeleeCritChance>0.18</MeleeCritChance>
 					<MeleeParryChance>0.08</MeleeParryChance>
 				</value>
@@ -72,7 +72,7 @@
 							<capacities>
 								<li>ToxicBite</li>
 							</capacities>
-							<power>24</power>
+							<power>23</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -83,8 +83,8 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationSharp>1.5</armorPenetrationSharp>
-							<armorPenetrationBlunt>6.144</armorPenetrationBlunt>
+							<armorPenetrationSharp>1.2</armorPenetrationSharp>
+							<armorPenetrationBlunt>5.144</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
