@@ -55,7 +55,6 @@
 							<cooldownTime>3.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>15</armorPenetrationBlunt>
-							<chanceFactor>1</chanceFactor>
 						</li>
 					</tools>
 				</value>
