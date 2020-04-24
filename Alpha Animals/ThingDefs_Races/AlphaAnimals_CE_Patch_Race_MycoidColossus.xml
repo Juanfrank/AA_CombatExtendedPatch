@@ -16,6 +16,13 @@
 					</li>
 				</value>
 			</li>
+				
+                	<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_MycoidColossus"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>5</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_MycoidColossus"]/statBases</xpath>
@@ -32,24 +39,22 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>20</power>
-							<cooldownTime>1.85</cooldownTime>
+							<power>28</power>
+							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.03</armorPenetrationSharp>
-							<armorPenetrationBlunt>1.944</armorPenetrationBlunt>
+							<armorPenetrationBlunt>5.944</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>15</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>36</power>
+							<cooldownTime>3.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.144</armorPenetrationBlunt>
-							<chanceFactor>0.2</chanceFactor>
+							<armorPenetrationBlunt>15</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
