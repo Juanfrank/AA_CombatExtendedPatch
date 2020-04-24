@@ -95,18 +95,30 @@
 				</value>
 			</li>
 
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="AA_Gallatross"]</xpath>
-				<value>
-					<comps>
-                       	<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
-							<hediffname>AA_LowBleed</hediffname>
-							<hediffseverity>1</hediffseverity>
-						</li>
-					</comps>
-				</value>
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/ThingDef[defName="AA_Gallatross"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AA_Gallatross"]</xpath>
+						<value>
+							<comps>
+								<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+									<hediffname>AA_LowBleed</hediffname>
+									<hediffseverity>1</hediffseverity>
+								</li>
+							</comps>
+						</value>
+				</nomatch>
+				<match Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AA_Gallatross"]/comps</xpath>
+						<value>
+							<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+								<hediffname>AA_LowBleed</hediffname>
+								<hediffseverity>1</hediffseverity>
+							</li>
+						</value>
+				</match>
 			</li>
-			
+
 			</operations>
 		</match>
 	</Operation>

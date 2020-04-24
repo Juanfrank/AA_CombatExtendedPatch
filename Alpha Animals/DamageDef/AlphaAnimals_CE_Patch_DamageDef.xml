@@ -11,7 +11,7 @@
 					<li Class="PatchOperationReplace">
 					<xpath>/Defs/DamageDef[workerClass="DamageWorker_Stab"]/workerClass</xpath>
 						<value>
-							<workerClass>CombatExtended.DamageWorker_AddInjuryCE</workerClass>
+							<workerClass>DamageWorker_AddInjury</workerClass>
 						</value>
 					</li>
 					
