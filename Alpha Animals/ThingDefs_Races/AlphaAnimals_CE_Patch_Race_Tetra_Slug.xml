@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_TetraSlug"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Serpentine</bodyShape>
+						<bodyShape>Quadruped</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -21,8 +21,8 @@
 				<xpath>/Defs/ThingDef[defName="AA_TetraSlug"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.06</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
-					<MeleeParryChance>0.32</MeleeParryChance>
+					<MeleeCritChance>1</MeleeCritChance>
+					<MeleeParryChance>0.38</MeleeParryChance>
 				</value>
 			</li>
 
@@ -35,8 +35,8 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>27</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>36</power>
+							<cooldownTime>1.88</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -46,7 +46,7 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+							<armorPenetrationBlunt>13</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
