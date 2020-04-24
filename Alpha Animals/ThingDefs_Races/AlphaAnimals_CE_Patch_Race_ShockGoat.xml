@@ -47,7 +47,7 @@
 								<li>AA_Electric</li>
 								<li>Poke</li>
 							</capacities>
-							<power>5<G/power>
+							<power>5</power>
 							<cooldownTime>1.45</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
