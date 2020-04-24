@@ -21,15 +21,6 @@
 							<workerClass>CombatExtended.DamageWorker_BluntCE</workerClass>
 						</value>
 					</li>
-					
-					<li Class="PatchOperationAddModExtension">
-						<xpath>Defs/DamageDef[defName="AA_Electric"]</xpath>
-						<value>
-							<li Class="CombatExtended.DamageDefExtensionCE">
-								<harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>
-							</li>
-						</value>
-					</li>
 
 					<li Class="PatchOperationAddModExtension">
 						<xpath>Defs/DamageDef[defName="AA_AcidSpit" or defName="AA_SecondaryAcidBurn" or defName="AA_PermanentBurn"]</xpath>
