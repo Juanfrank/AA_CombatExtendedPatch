@@ -42,7 +42,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>7</damageAmountBase>
-						<speed>40</speed>
+						<speed>25</speed>
 						<armorPenetrationSharp>1.5</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
@@ -56,7 +56,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>8</damageAmountBase>
-						<speed>40</speed>
+						<speed>27</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
 					</projectile>
@@ -70,7 +70,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>11</damageAmountBase>
-						<speed>40</speed>
+						<speed>27</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
 					</projectile>
@@ -98,7 +98,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>20</damageAmountBase>
-						<speed>35</speed>
+						<speed>30</speed>
 						<armorPenetrationSharp>3</armorPenetrationSharp>
 						<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
 					</projectile>
@@ -112,7 +112,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>7</damageAmountBase>
-						<speed>40</speed>
+						<speed>27</speed>
 						<armorPenetrationSharp>1.5</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
@@ -127,7 +127,7 @@
 						<damageDef>Bomb</damageDef>
 						<damageAmountBase>35</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
-						<speed>18</speed>
+						<speed>12</speed>
 						<armorPenetrationSharp>5</armorPenetrationSharp>
 						<armorPenetrationBlunt>25</armorPenetrationBlunt>
 						<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
@@ -222,7 +222,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_ToxicInk"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<speed>30</speed>
+						<speed>25</speed>
 						<damageDef>AA_ToxicBolt</damageDef>
 						<damageAmountBase>40</damageAmountBase>
 						<explosionRadius>3</explosionRadius>
