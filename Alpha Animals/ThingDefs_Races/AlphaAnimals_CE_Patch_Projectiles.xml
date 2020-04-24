@@ -41,9 +41,9 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>5</damageAmountBase>
-						<speed>64</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
+						<damageAmountBase>7</damageAmountBase>
+						<speed>40</speed>
+						<armorPenetrationSharp>1.5</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
 				</value>
@@ -55,8 +55,8 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>8</damageAmountBase>
-						<speed>40</speed>
+						<damageAmountBase>11</damageAmountBase>
+						<speed>30</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
 					</projectile>
@@ -83,8 +83,8 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
-						<damageAmountBase>20</damageAmountBase>
-						<speed>25</speed>
+						<damageAmountBase>24</damageAmountBase>
+						<speed>24</speed>
 						<armorPenetrationSharp>16</armorPenetrationSharp>
 						<armorPenetrationBlunt>14.4</armorPenetrationBlunt>
 					</projectile>
@@ -99,8 +99,8 @@
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>20</damageAmountBase>
 						<speed>20</speed>
-						<armorPenetrationSharp>8</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.750</armorPenetrationBlunt>
+						<armorPenetrationSharp>3</armorPenetrationSharp>
+						<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -111,10 +111,10 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>3</damageAmountBase>
-						<speed>35</speed>
-						<armorPenetrationSharp>6</armorPenetrationSharp>
-						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
+						<damageAmountBase>4</damageAmountBase>
+						<speed>28</speed>
+						<armorPenetrationSharp>1</armorPenetrationSharp>
+						<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -125,7 +125,7 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<explosionRadius>1</explosionRadius>
 						<damageDef>Bomb</damageDef>
-						<damageAmountBase>35</damageAmountBase>
+						<damageAmountBase>40</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
 						<speed>20</speed>
 						<armorPenetrationSharp>10</armorPenetrationSharp>
@@ -141,8 +141,8 @@
 					<comps>				
 						<li Class="CombatExtended.CompProperties_Fragments">
 							<fragments>
-							<Fragment_Small>14</Fragment_Small>
-							<Fragment_Large>4</Fragment_Large>
+							<Fragment_Small>18</Fragment_Small>
+							<Fragment_Large>5</Fragment_Large>
 							</fragments>
 						</li>
 					</comps>
@@ -205,7 +205,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_IncendiaryMote"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<speed>40</speed>
+						<speed>30</speed>
 						<damageDef>Flame</damageDef>
 						<damageAmountBase>15</damageAmountBase>
 						<explosionRadius>1.1</explosionRadius>
@@ -222,7 +222,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_ToxicInk"]/projectile</xpath>
 				<value>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<speed>40</speed>
+						<speed>30</speed>
 						<damageDef>AA_ToxicBolt</damageDef>
 						<damageAmountBase>40</damageAmountBase>
 						<explosionRadius>3</explosionRadius>
