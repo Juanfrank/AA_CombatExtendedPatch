@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_NightMule"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.04</MeleeDodgeChance>
-					<MeleeCritChance>0.24</MeleeCritChance>
+					<MeleeCritChance>0.2</MeleeCritChance>
 					<MeleeParryChance>0.18</MeleeParryChance>
 				</value>
 			</li>
@@ -35,7 +35,7 @@
 						<capacities>
 						  <li>Scratch</li>
 						</capacities>
-						<power>16</power>
+						<power>15</power>
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>4</armorPenetrationBlunt>
