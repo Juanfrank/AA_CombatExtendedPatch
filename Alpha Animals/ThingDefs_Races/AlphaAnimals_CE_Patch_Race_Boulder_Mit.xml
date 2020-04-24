@@ -20,7 +20,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_BoulderMit"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>15</ArmorRating_Blunt>
+					<ArmorRating_Blunt>30</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -80,7 +80,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_SummitCrab"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
-					<ArmorRating_Blunt>30</ArmorRating_Blunt>
+					<ArmorRating_Blunt>60</ArmorRating_Blunt>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
