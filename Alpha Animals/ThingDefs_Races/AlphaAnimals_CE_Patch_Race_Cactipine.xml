@@ -25,6 +25,13 @@
 					<MeleeParryChance>0.01</MeleeParryChance>
 				</value>
 			</li>
+				
+				                	<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_Cactipine"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>1</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Cactipine"]/tools</xpath>
@@ -36,7 +43,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>7</power>
-							<cooldownTime>1.4</cooldownTime>
+							<cooldownTime>1.3</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
@@ -55,7 +62,7 @@
 								<li>Scratch</li>
 							</capacities>
 							<power>7</power>
-							<cooldownTime>1.4</cooldownTime>
+							<cooldownTime>1.3</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
