@@ -16,6 +16,12 @@
 					</li>
 				</value>
 			</li>
+				          <li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_AnimusVox"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>0.7</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_AnimusVox"]/statBases</xpath>
