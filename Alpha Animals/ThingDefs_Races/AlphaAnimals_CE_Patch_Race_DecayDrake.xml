@@ -26,6 +26,13 @@
 					<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				</value>
 			</li>
+				
+				          <li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_DecayDrake"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>1.8</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_DecayDrake"]/tools</xpath>
