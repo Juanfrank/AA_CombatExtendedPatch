@@ -39,7 +39,7 @@
 						<cooldownTime>2</cooldownTime>
 						<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 						<armorPenetrationBlunt>4</armorPenetrationBlunt>
-						<armorPenetrationSharp>1</armorPenetrationSharp>
+						<armorPenetrationSharp>2</armorPenetrationSharp>
 					  </li>
 						<li Class="CombatExtended.ToolCE">
 						<label>head</label>
