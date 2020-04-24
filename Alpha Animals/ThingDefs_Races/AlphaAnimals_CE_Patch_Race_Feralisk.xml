@@ -48,7 +48,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>13</power>
+							<power>12</power>
 							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.4</armorPenetrationSharp>
@@ -59,7 +59,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>13</power>
+							<power>12</power>
 							<cooldownTime>1.2</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.4</armorPenetrationSharp>
@@ -69,7 +69,7 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>18</power>
+							<power>16</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -88,7 +88,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>10</power>
+							<power>9</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>1</armorPenetrationBlunt>
@@ -138,7 +138,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>22</power>
+							<power>20</power>
 							<cooldownTime>1.25</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.2</armorPenetrationSharp>
@@ -149,7 +149,7 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>22</power>
+							<power>20</power>
 							<cooldownTime>1.25</cooldownTime>
 							<linkedBodyPartsGroup>LegAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>0.2</armorPenetrationSharp>
@@ -159,7 +159,7 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>32</power>
+							<power>13</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -178,7 +178,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>15</power>
+							<power>13</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>3</armorPenetrationBlunt>
