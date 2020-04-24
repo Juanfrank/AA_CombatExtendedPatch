@@ -17,7 +17,7 @@
 								<defName>AA_TurtleLike</defName>
 								<label>turtle-like</label>
 									<corePart>
-									<def>Shell</def>
+									<def>AA_Shell</def>
 									<coverage>0.8</coverage>
 									<height>Middle</height>
 									<depth>Outside</depth>
@@ -141,13 +141,28 @@
 							</BodyDef>
 						</value>
 					</li>
+					
+					<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+						<value>
+							<BodyPartDef>
+								<defName>AA_Shell</defName>
+								<label>mineral shell</label>
+								<hitPoints>100</hitPoints>
+								<skinCovered>false</skinCovered>
+								<solid>true</solid>
+								<alive>false</alive>
+								<bleedRate>0</bleedRate>
+							</BodyPartDef>	
+						</value>
+					</li>
 			
 					<li Class="PatchOperationReplace">
-					<xpath>/Defs/ThingDef[defName="AA_Bouldermit" or
-					defName="AA_SummitCrab" or
-					defName="AA_CrystalMit" or
-					defName="AA_PebbleMit"
-					]/race/body</xpath>
+					<xpath>/Defs/ThingDef[defName="AA_BoulderMit" or
+						defName="AA_SummitCrab" or
+						defName="AA_CrystalMit" or
+						defName="AA_PebbleMit"
+						]/race/body</xpath>
 						<value>
 							<body>AA_TurtleLike</body>
 						</value>
