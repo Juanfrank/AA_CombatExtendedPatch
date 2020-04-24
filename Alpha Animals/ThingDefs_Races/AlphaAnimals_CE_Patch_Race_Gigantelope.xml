@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Gigantelope"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.03</MeleeDodgeChance>
-					<MeleeCritChance>0.15</MeleeCritChance>
+					<MeleeCritChance>0.22</MeleeCritChance>
 					<MeleeParryChance>0.13</MeleeParryChance>
 				</value>
 			</li>
@@ -66,10 +66,10 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>15</power>
+							<power>18</power>
 							<cooldownTime>2.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.750</armorPenetrationBlunt>
+							<armorPenetrationBlunt>3.750</armorPenetrationBlunt>
 							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 						</li>
 					</tools>
