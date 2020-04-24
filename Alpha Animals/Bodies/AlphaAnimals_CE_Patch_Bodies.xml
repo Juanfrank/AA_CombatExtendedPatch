@@ -1042,25 +1042,6 @@
 					</match>
 					</li>
 
-				
-					<li Class="PatchOperationConditional">
-					<xpath>/Defs/BodyDef[defName="AA_EyelessQuadruped"]/corePart/parts/li[def="Leg"]/groups</xpath>
-					<nomatch Class="PatchOperationAdd">
-							<xpath>/Defs/BodyDef[defName="AA_EyelessQuadruped"]/corePart/parts/li[def="Leg"]</xpath>
-							<value>
-								<groups>
-									<li>CoveredByNaturalArmor</li>
-								</groups>
-							</value>
-					</nomatch>
-					<match Class="PatchOperationAdd">
-						<xpath>/Defs/BodyDef[defName="AA_EyelessQuadruped"]/corePart/parts/li[def="Leg"]/groups</xpath>
-						<value>
-							<li>CoveredByNaturalArmor</li>
-						</value>
-					</match>
-					</li>
-
 					<li Class="PatchOperationConditional">
 					<xpath>/Defs/BodyDef[defName="AA_EyelessQuadruped"]/corePart/parts/li[def="Leg"]/parts/li[def="Paw"]/groups</xpath>
 					<nomatch Class="PatchOperationAdd">
