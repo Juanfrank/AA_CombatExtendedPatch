@@ -34,7 +34,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_CrepuscularBeetle"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.01</MeleeDodgeChance>
-					<MeleeCritChance>0.3</MeleeCritChance>
+					<MeleeCritChance>0.35</MeleeCritChance>
 					<MeleeParryChance>0.35</MeleeParryChance>
 				</value>
 			</li>
@@ -48,8 +48,8 @@
 							<capacities>
 								<li>Cut</li>
 							</capacities>
-							<power>20</power>
-							<cooldownTime>2.5</cooldownTime>
+							<power>24</power>
+							<cooldownTime>3.1</cooldownTime>
 							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
 							<armorPenetrationSharp>8</armorPenetrationSharp>
 							<armorPenetrationBlunt>16</armorPenetrationBlunt>
