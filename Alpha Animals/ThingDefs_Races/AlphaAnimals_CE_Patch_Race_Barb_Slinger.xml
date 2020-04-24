@@ -21,7 +21,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.1</MeleeDodgeChance>
-					<MeleeCritChance>0.45</MeleeCritChance>
+					<MeleeCritChance>0.4</MeleeCritChance>
 					<MeleeParryChance>0.4</MeleeParryChance>
 				</value>
 			</li>
@@ -49,29 +49,29 @@
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>27</power>
+							<power>24</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>3</armorPenetrationSharp>
-							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right pincer</label>
 							<capacities>
 								<li>Scratch</li>
 							</capacities>
-							<power>27</power>
+							<power>24</power>
 							<cooldownTime>1.68</cooldownTime>
 							<linkedBodyPartsGroup>AA_PincerAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationSharp>3</armorPenetrationSharp>
-							<armorPenetrationBlunt>8</armorPenetrationBlunt>
+							<armorPenetrationBlunt>6</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>24</power>
-							<cooldownTime>2</cooldownTime>
+							<power>20</power>
+							<cooldownTime>1.8</cooldownTime>
 							<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
 							<armorPenetrationSharp>10</armorPenetrationSharp>
 							<armorPenetrationBlunt>3</armorPenetrationBlunt>
