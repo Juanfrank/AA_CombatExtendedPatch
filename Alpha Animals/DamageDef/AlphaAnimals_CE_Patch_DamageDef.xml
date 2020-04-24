@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+		<li>Alpha Animals</li>
+		</mods>
+
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+					<li Class="PatchOperationReplace">
+					<xpath>/Defs/DamageDef[workerClass="DamageWorker_Stab"]/workerClass</xpath>
+						<value>
+							<workerClass>CombatExtended.DamageWorker_AddInjuryCE</workerClass>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+					<xpath>/Defs/DamageDef[workerClass="DamageWorker_Blunt"]/workerClass</xpath>
+						<value>
+							<workerClass>CombatExtended.DamageWorker_BluntCE</workerClass>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationAddModExtension">
+						<xpath>Defs/DamageDef[defName="AA_Electric"]</xpath>
+						<value>
+							<li Class="CombatExtended.DamageDefExtensionCE">
+								<harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>
+							</li>
+						</value>
+					</li>
+
+					<li Class="PatchOperationAddModExtension">
+						<xpath>Defs/DamageDef[defName="AA_AcidSpit" or defName="AA_SecondaryAcidBurn" or defName="AA_PermanentBurn"]</xpath>
+						<value>
+							<li Class="CombatExtended.DamageDefExtensionCE">
+								<harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>
+								<isAmbientDamage>true</isAmbientDamage>
+							</li>
+						</value>
+					</li>
+					
+				</operations>
+			</match>
+	</Operation>
+</Patch>
