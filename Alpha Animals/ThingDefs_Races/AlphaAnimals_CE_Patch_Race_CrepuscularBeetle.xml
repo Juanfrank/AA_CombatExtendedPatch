@@ -49,7 +49,7 @@
 								<li>Cut</li>
 							</capacities>
 							<power>24</power>
-							<cooldownTime>3.1</cooldownTime>
+							<cooldownTime>2.8</cooldownTime>
 							<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
 							<armorPenetrationSharp>8</armorPenetrationSharp>
 							<armorPenetrationBlunt>16</armorPenetrationBlunt>
