@@ -27,12 +27,13 @@
 					<MeleeParryChance>0.25</MeleeParryChance>
 				</value>
 			</li>
-				
+
 			<li Class="PatchOperationReplace">
 		                 <xpath>Defs/ThingDef[defName="AA_Gallatross"]/race/baseHealthScale</xpath>
 		                 <value>
 			               <baseHealthScale>15</baseHealthScale>
 		                 </value>
+
 	                </li>
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_Gallatross"]/tools</xpath>
@@ -103,7 +104,6 @@
 					</comps>
 				</value>
 			</li>
-
 			</operations>
 		</match>
 	</Operation>
