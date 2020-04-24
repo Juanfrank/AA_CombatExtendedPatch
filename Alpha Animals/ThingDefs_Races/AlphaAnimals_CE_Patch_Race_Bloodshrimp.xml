@@ -33,6 +33,13 @@
 					<MeleeParryChance>0.28</MeleeParryChance>
 				</value>
 			</li>
+				
+				     <li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_BloodShrimp"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>2.5</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_BloodShrimp"]/tools</xpath>
