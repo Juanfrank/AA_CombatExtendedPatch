@@ -21,10 +21,17 @@
 				<xpath>/Defs/ThingDef[defName="AA_OvergrownColossus"]/statBases</xpath>
 				<value>
 					<MeleeDodgeChance>0.00</MeleeDodgeChance>
-					<MeleeCritChance>0.25</MeleeCritChance>
+					<MeleeCritChance>0.45</MeleeCritChance>
 					<MeleeParryChance>0.40</MeleeParryChance>
 				</value>
 			</li>
+				
+				               	<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_OvergrownColossus"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>5</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_OvergrownColossus"]/tools</xpath>
@@ -32,24 +39,23 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
-								<li>Bite</li>
+								<li>BiteBlunt</li>
 							</capacities>
-							<power>20</power>
-							<cooldownTime>1.85</cooldownTime>
+							<power>28</power>
+							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<armorPenetrationSharp>0.03</armorPenetrationSharp>
-							<armorPenetrationBlunt>1.944</armorPenetrationBlunt>
+							<armorPenetrationBlunt>5.944</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>15</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>36</power>
+							<cooldownTime>3.3</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>1.144</armorPenetrationBlunt>
-							<chanceFactor>0.2</chanceFactor>
+							<armorPenetrationBlunt>15.144</armorPenetrationBlunt>
+							<chanceFactor>1</chanceFactor>
 						</li>
 					</tools>
 				</value>
