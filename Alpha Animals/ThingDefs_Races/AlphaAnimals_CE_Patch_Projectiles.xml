@@ -42,7 +42,7 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>7</damageAmountBase>
-						<speed>25</speed>
+						<speed>34</speed>
 						<armorPenetrationSharp>1.5</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.440</armorPenetrationBlunt>
 					</projectile>
@@ -69,7 +69,7 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
-						<damageAmountBase>11</damageAmountBase>
+						<damageAmountBase>12</damageAmountBase>
 						<speed>27</speed>
 						<armorPenetrationSharp>6</armorPenetrationSharp>
 						<armorPenetrationBlunt>1.660</armorPenetrationBlunt>
@@ -98,9 +98,9 @@
 						<flyOverhead>false</flyOverhead>
 						<damageDef>AA_ToxicSting</damageDef>
 						<damageAmountBase>20</damageAmountBase>
-						<speed>30</speed>
+						<speed>20</speed>
 						<armorPenetrationSharp>3</armorPenetrationSharp>
-						<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+						<armorPenetrationBlunt>3</armorPenetrationBlunt>
 					</projectile>
 				</value>
 			</li>
@@ -127,7 +127,7 @@
 						<damageDef>Bomb</damageDef>
 						<damageAmountBase>35</damageAmountBase>
 						<soundExplode>MortarBomb_Explode</soundExplode>
-						<speed>12</speed>
+						<speed>16</speed>
 						<armorPenetrationSharp>5</armorPenetrationSharp>
 						<armorPenetrationBlunt>25</armorPenetrationBlunt>
 						<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
