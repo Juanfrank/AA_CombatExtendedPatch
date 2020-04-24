@@ -25,6 +25,13 @@
 					<MeleeParryChance>0.14</MeleeParryChance>
 				</value>
 			</li>
+				
+				       <li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="AA_ArcticLion"]/race/baseHealthScale</xpath>
+					<value>
+						<baseHealthScale>2.25</baseHealthScale>
+					</value>
+				</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>/Defs/ThingDef[defName="AA_ArcticLion"]/tools</xpath>
