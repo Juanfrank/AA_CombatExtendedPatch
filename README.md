@@ -1,8 +1,6 @@
 # AA_CombatExtendedPatch
 Alpha Animals Combat Extended Patch for CE/RimWorld 1.1
 
-**ALERT: It could potentially be unbalanced in the current state, but it's 100% functional**
-
 ## Disclaimer ##
 I do not own nor have any intellectual property rights over Alpha Animals, RimWorld nor Combat Extended. This is a voluntary project made for the purpose of making both these mods be compatible with each other.
 
