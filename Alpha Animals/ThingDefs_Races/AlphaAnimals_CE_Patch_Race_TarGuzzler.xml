@@ -32,16 +32,6 @@
 				<xpath>/Defs/ThingDef[defName="AA_TarGuzzler"]/tools</xpath>
 				<value>
 					<tools>
-						<li Class="CombatExtended.ToolCE">
-							<label>eyestalk</label>
-							<capacities>
-								<li>Blunt</li>
-							</capacities>
-							<power>18</power>
-							<cooldownTime>1.65</cooldownTime>
-							<linkedBodyPartsGroup>AA_EyestalkAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationBlunt>4</armorPenetrationBlunt>
-						</li>
 						
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
