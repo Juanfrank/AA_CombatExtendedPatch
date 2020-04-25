@@ -91,7 +91,7 @@
 			  <range>16</range>
 			  <ticksBetweenBurstShots>0.5</ticksBetweenBurstShots>
 			  <burstShotCount>5</burstShotCount>
-			  <soundCast>FlameThrower</soundCast>
+			  <soundCast>AA_PoisonBolt</soundCast>
 			  <muzzleFlashScale>2</muzzleFlashScale>
 				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 			</Properties>
