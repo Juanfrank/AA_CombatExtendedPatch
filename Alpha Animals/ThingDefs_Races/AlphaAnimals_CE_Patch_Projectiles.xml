@@ -18,7 +18,8 @@
 				defName="AA_PoisonBolt" or
 				defName="AA_Quill" or
 				defName="AA_RedPoisonBolt" or
-				defName="AA_Web"
+				defName="AA_Web" or
+				defName="AA_FireSpit"
 				]/thingClass</xpath>
 				<value>
 					<thingClass>CombatExtended.BulletCE</thingClass>
@@ -237,6 +238,19 @@
 				</value>
 			</li>
 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_FireSpit"]/projectile</xpath>
+				<value>
+					<projectile Class="CombatExtended.ProjectilePropertiesCE">
+						<flyOverhead>false</flyOverhead>
+						<damageDef>Flame</damageDef>
+						<damageAmountBase>1</damageAmountBase>
+						<speed>15</speed>
+						<armorPenetrationSharp>5</armorPenetrationSharp>
+					</projectile>
+				</value>
+			<li>
+			
 			</operations>
 		</match>
 	</Operation>

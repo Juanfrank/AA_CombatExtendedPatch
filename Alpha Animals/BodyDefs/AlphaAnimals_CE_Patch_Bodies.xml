@@ -320,6 +320,97 @@
 					</match>
 					</li>
 
+			<!-- ====== AA_Atispec ====== -->
+
+					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]/parts/li[def="InsectHead"]/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]/parts/li[def="InsectHead"]</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="Pronotum"]/parts/li[def="InsectHead"]/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_Abdomen"]/parts/li[def="AA_InsectSting"]/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_Abdomen"]/parts/li[def="AA_InsectSting"]</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_Abdomen"]/parts/li[def="AA_InsectSting"]/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					</li>
+
+					<li Class="PatchOperationConditional">
+					<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_FrontClaw"]/groups</xpath>
+					<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_FrontClaw"]</xpath>
+							<value>
+								<groups>
+									<li>CoveredByNaturalArmor</li>
+								</groups>
+							</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>/Defs/BodyDef[defName="AA_Atispec"]/corePart/parts/li[def="AA_FrontClaw"]/groups</xpath>
+						<value>
+							<li>CoveredByNaturalArmor</li>
+						</value>
+					</match>
+					
 			<!-- ====== AA_Aura ====== -->
 
 					<li Class="PatchOperationConditional">
@@ -2035,8 +2126,11 @@
 					</match>
 					</li>					
 					
+					<!-- ====== AA_TentacledQuadruped ====== -->
 					
-			<!-- ====== AA_Wasp ====== -->
+					<!-- Doesn't apply -->
+					
+					<!-- ====== AA_Wasp ====== -->
 
 					<li Class="PatchOperationConditional">
 					<xpath>/Defs/BodyDef[defName="AA_Wasp"]/corePart/groups</xpath>
@@ -2146,7 +2240,7 @@
 					</match>
 					</li>
 					
-			<!-- ====== AA_WingedQuadrupedAnimalWithPawsAndTail ====== -->
+					<!-- ====== AA_WingedQuadrupedAnimalWithPawsAndTail ====== -->
 
 					<li Class="PatchOperationConditional">
 					<xpath>/Defs/BodyDef[defName="AA_WingedQuadrupedAnimalWithPawsAndTail"]/corePart/groups</xpath>
