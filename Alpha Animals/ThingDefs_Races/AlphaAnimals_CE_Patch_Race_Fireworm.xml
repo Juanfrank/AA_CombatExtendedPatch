@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Fireworm"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Serpentine</bodyShape>
+						<bodyShape>QuadrupedLow</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -33,7 +33,7 @@
 			</li>
 				
 					<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="AA_Fireworm"]/statBases/MoveSpeed</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_Fireworm"]/statBases/MoveSpeed</xpath>
 				<value>
 					<MoveSpeed>3.4</MoveSpeed>
 				</value>

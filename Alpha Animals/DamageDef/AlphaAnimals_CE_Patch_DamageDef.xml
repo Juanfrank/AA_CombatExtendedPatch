@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 		<li>Alpha Animals</li>
 		</mods>
 
 			<match Class="PatchOperationSequence">
+				<success>Always</success>
 				<operations>
 				
 					<!-- Changing the workerClass -->
@@ -25,7 +27,7 @@
 					</li>
 
 					<li Class="PatchOperationAddModExtension">
-						<xpath>Defs/DamageDef[defName="AA_AcidSpit" or defName="AA_SecondaryAcidBurn" or defName="AA_PermanentBurn"]</xpath>
+						<xpath>/Defs/DamageDef[defName="AA_AcidSpit" or defName="AA_SecondaryAcidBurn" or defName="AA_PermanentBurn"]</xpath>
 						<value>
 							<li Class="CombatExtended.DamageDefExtensionCE">
 								<harmOnlyOutsideLayers>true</harmOnlyOutsideLayers>

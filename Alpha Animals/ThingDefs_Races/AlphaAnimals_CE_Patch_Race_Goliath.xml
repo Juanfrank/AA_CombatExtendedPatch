@@ -45,7 +45,7 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="AA_Goliath"]/race/baseHealthScale</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_Goliath"]/race/baseHealthScale</xpath>
 				<value>
 					<baseHealthScale>2.5</baseHealthScale>
 				</value>

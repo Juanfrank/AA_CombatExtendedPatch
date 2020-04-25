@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-		<operations>
-			<li Class="CombatExtended.PatchOperationFindMod">
-				<modName>Alpha Animals</modName>
-			</li>
-
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Animals</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
 
 			<!-- Make the Siege Turret usable -->
 
@@ -107,6 +109,7 @@
 			</li>
 			
 
-		</operations>
+			</operations>
+		</match>
 	</Operation>
 </Patch>

@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_GreenGoo"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>Birdlike</bodyShape>
 					</li>
 				</value>
 			</li>

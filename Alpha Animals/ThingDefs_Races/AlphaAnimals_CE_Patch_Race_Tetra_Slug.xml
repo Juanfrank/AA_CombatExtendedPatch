@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_TetraSlug"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
+						<bodyShape>Serpentine</bodyShape>
 					</li>
 				</value>
 			</li>

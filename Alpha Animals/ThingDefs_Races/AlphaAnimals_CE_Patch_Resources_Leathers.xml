@@ -12,24 +12,24 @@
 			<!-- Remove GallatrossHorn as a weapon -->
 			
 			<li Class="PatchOperationRemove">
-			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]/tools</xpath>
+			<xpath>/Defs/ThingDef[defName="AA_GallatrossHorn"]/tools</xpath>
 			</li>
 
 			<li Class="PatchOperationAttributeSet">
-			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]</xpath>
+			<xpath>/Defs/ThingDef[defName="AA_GallatrossHorn"]</xpath>
 			<attribute>ParentName</attribute>
 			<value>ResourceBase</value>
 			</li>
 			
 			<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]/description</xpath>
+			<xpath>/Defs/ThingDef[defName="AA_GallatrossHorn"]/description</xpath>
     				<value>
 						<description>A single horn of the mighty Gallatross. Proof that you're a warrior worthy of the title of Aberration Killer. Traders and collectors might pay a high price for this.</description>
     				</value>
   			</li>
 			
 			<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]/statBases/MarketValue</xpath>
+			<xpath>/Defs/ThingDef[defName="AA_GallatrossHorn"]/statBases/MarketValue</xpath>
     				<value>
 						<MarketValue>3200</MarketValue>
     				</value>
@@ -38,14 +38,14 @@
 			<!-- SkySteel -->
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/statBases</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/statBases</xpath>
 				<value>
 					<Bulk>0.025</Bulk>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/stuffProps/statFactors</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/stuffProps/statFactors</xpath>
 				<value>
 					<Mass>0.9</Mass>
 					<MeleePenetrationFactor>1.10</MeleePenetrationFactor>
@@ -53,11 +53,11 @@
 			</li>
 
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/statBases/SharpDamageMultiplier</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/statBases/SharpDamageMultiplier</xpath>
 			</li>
 
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/stuffProps/categories</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/stuffProps/categories</xpath>
 				<value>
 					<li>Metallic_Weapon</li>
 					<li>Steeled</li>
@@ -65,21 +65,21 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
 					<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Blunt</xpath>
 				<value>
 					<StuffPower_Armor_Blunt>1.6</StuffPower_Armor_Blunt>
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Heat</xpath>
+				<xpath>/Defs/ThingDef[defName="AA_SkySteel"]/statBases/StuffPower_Armor_Heat</xpath>
 				<value>
 					<StuffPower_Armor_Heat>-0.05</StuffPower_Armor_Heat>
 				</value>
