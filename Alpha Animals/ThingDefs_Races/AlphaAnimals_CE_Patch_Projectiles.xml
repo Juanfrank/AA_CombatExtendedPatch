@@ -214,7 +214,6 @@
 						<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 						<ai_IsIncendiary>true</ai_IsIncendiary>
 						<soundExplode>Interact_Ignite</soundExplode>
-						<armorPenetrationSharp>10</armorPenetrationSharp>
 					</projectile>
 				</value>
 			</li>
@@ -244,9 +243,9 @@
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<flyOverhead>false</flyOverhead>
 						<damageDef>Flame</damageDef>
-						<damageAmountBase>1</damageAmountBase>
+						<damageAmountBase>4</damageAmountBase>
 						<speed>15</speed>
-						<armorPenetrationSharp>5</armorPenetrationSharp>
+						<ai_IsIncendiary>true</ai_IsIncendiary>
 					</projectile>
 				</value>
 			</li>
