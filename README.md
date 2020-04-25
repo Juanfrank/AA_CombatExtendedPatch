@@ -22,4 +22,4 @@ Place the folder inside your "SteamLibrary\steamapps\workshop\content\294100\163
 
 ## Credits ##
 
-Many thanks to the CE Team available at the discord specially Andross/Onigamii. Much more thanks to Breadbox / Breadbox2k19 for helping out with the balance changes.
+Many thanks to the CE Team available at the discord specially Andross/Onigamii. Much more thanks to Breadbox / Breadbox2k19 for ~helping~ one-handedly handling the balance changes.
