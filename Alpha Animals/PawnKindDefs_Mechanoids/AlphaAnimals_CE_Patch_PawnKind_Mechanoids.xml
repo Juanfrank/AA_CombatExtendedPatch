@@ -15,7 +15,7 @@
 					<li Class="PatchOperationAddModExtension">
 						<xpath>/Defs/PawnKindDef[defName="AA_Siegebreaker"]</xpath>
 						<value>
-						<liClass="CombatExtended.LoadoutPropertiesExtension">
+						<li Class="CombatExtended.LoadoutPropertiesExtension">
 							<primaryMagazineCount>
 							<min>20</min>
 							<max>20</max>
