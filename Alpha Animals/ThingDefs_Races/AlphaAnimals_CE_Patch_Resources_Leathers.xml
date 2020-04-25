@@ -24,7 +24,14 @@
 			<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]/description</xpath>
     				<value>
-      				<description>A single horn of the mighty Gallatross. Proof that you're a warrior worthy of the title of Aberration Killer. Traders and collectors might pay a high price for this.</description>
+						<description>A single horn of the mighty Gallatross. Proof that you're a warrior worthy of the title of Aberration Killer. Traders and collectors might pay a high price for this.</description>
+    				</value>
+  			</li>
+			
+			<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="AA_GallatrossHorn"]/statBases/MarketValue</xpath>
+    				<value>
+						<MarketValue>3200</MarketValue>
     				</value>
   			</li>
 			

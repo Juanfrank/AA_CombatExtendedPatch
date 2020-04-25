@@ -101,6 +101,17 @@
 				</value>
 			</li>
 
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="AA_SandLion"]/comps/li[gasType="AA_SandPuff"]</xpath>
+				<value>
+					<li Class="AlphaBehavioursAndEvents.CompProperties_GasProducer">
+						<gasType>AA_SandPuff</gasType>
+						<rate>0.7</rate>
+						<radius>3</radius>
+					</li>
+				</value>
+			</li>
+
 			</operations>
 		</match>
 	</Operation>
