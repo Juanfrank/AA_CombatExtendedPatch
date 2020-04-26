@@ -116,7 +116,7 @@
 								<power>40</power>
 								<linkedBodyPartsGroup>AA_Sting</linkedBodyPartsGroup>
 								<chanceFactor>0.5</chanceFactor>
-								<armorPenetrationSharp>10</armorPenetrationSharp>
+								<armorPenetrationSharp>12</armorPenetrationSharp>
 								<armorPenetrationBlunt>8</armorPenetrationBlunt>
 							</li>
 
@@ -124,7 +124,7 @@
 								<capacities>
 									<li>Bite</li>
 								</capacities>
-								<power>25</power>
+								<power>30</power>
 								<cooldownTime>1.85</cooldownTime>
 								<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 								<chanceFactor>0.1</chanceFactor>
