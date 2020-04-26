@@ -12,7 +12,7 @@
 				<xpath>/Defs/ThingDef[defName="AA_Plasmorph"]</xpath>
 				<value>
 					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Serpentine</bodyShape>
+						<bodyShape>Quadrupedlow</bodyShape>
 					</li>
 				</value>
 			</li>
@@ -49,7 +49,7 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>7</power>
+							<power>8</power>
 							<cooldownTime>2.4</cooldownTime>
 							<linkedBodyPartsGroup>AA_EyestalkAttackTool</linkedBodyPartsGroup>
 							<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
