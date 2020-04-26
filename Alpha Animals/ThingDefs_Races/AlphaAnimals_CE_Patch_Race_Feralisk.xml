@@ -159,7 +159,7 @@
 							<capacities>
 								<li>AA_ToxicSting</li>
 							</capacities>
-							<power>37</power>
+							<power>35</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
 							<surpriseAttack>
